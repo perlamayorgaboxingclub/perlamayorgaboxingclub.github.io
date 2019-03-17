@@ -1,0 +1,42 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: 'Raleway', sans-serif;
+}
+    
+body, html {
+    height: 100%;
+    /*line-height: 1.8;*/
+}
+
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/fotoportada_02.jpg");
+    min-height: 100%;
+}
+
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+.w3-bar .pm-vertical{
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+}
+
+#home .pm-gray{
+    background-color: #9e9e9ebf;
+}
+
+#team .pm-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: stretch;
+}
+
+#team .pm-minheight{
+    min-height: 410px;
+}
