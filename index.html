@@ -18,14 +18,14 @@
     <body>
 
         <!-- Navbar (sit on top) -->
-        <div class="w3-top">
+        <div class="w3-top" id="navbar">
             <div class="w3-bar w3-white w3-card" id="myNavbar">
                 <a href="#home" class="w3-bar-item w3-button w3-wide">
                     <img src="./images/logo.png" alt="Perla Mayorga Boxing Club">
                 </a>
 
                 <!-- Right-sided navbar links -->
-                <div class="w3-right w3-hide-small pm-vertical">
+                <div class="w3-right pm-hide-small pm-vertical">
                     <a href="#about" class="w3-bar-item w3-button"><i class="fas fa-dumbbell"></i></i> ESCUELA</a>
                     <a href="#team" class="w3-bar-item w3-button"><i class="fas fa-users"></i> EQUIPO</a>
                     <a href="#work" class="w3-bar-item w3-button"><i class="fas fa-th"></i> CLASES</a>
@@ -34,8 +34,8 @@
                 </div>
 
                 <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium pm-vertical" onclick="w3_open()">
-                    <i class="fa fa-bars"></i>
+                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large pm-hide-medium pm-vertical" onclick="w3_open()">
+                    <i class="fas fa-align-justify"></i>
                 </a>
             </div>
         </div>
@@ -56,7 +56,7 @@
 
         <!-- Header with full-height image -->
         <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-            <div class="w3-display-bottomleft w3-text-white pm-gray" style="padding:48px">
+            <div class="w3-display-bottomleft w3-text-white pm-gray" style="padding:43px">
                 <span class="w3-xxlarge w3-hide-small">"Algo estaremos <br/> haciendo bien"</span><br>
                 <span class="w3-xlarge w3-hide-large w3-hide-medium">"Algo estaremos <br/> haciendo bien"</span><br>
                 
@@ -135,10 +135,10 @@
                 </div>
                 <div class="w3-col l3 m6 w3-margin-bottom">
                     <div class="w3-card pm-minheight">
-                        <img src="./images/maestros/maestro_muay_thai.jpg" alt="Jane" style="width:100%">
+                        <img src="./images/maestros/maestro_kick_boxing.jpg" alt="Jane" style="width:100%">
                         <div class="w3-container">
                             <h3 style="min-height: 36px;">Joaquín</h3>
-                            <p class="w3-opacity">Entrenador Muay Thai y King Boxing</p>
+                            <p class="w3-opacity">Entrenador Kick Boxing / K1</p>
                             <p>Competidor profesional de Muay Thai</p>
                         </div>
                     </div>
@@ -301,7 +301,7 @@
                     <ul class="w3-ul w3-white w3-hover-shadow">
                         <li class="w3-red w3-xlarge w3-padding-48">Una Actividad</li>
                         <li class="w3-padding-16"><b>Boxeo</b></li>
-                        <li class="w3-padding-16"><b>Muay Thai</b></li>
+                        <li class="w3-padding-16"><b>Kick Boxing / K1</b></li>
                         <li class="w3-padding-16"><b>Defensa Personal</b></li>
                         <li class="w3-padding-16">
                             <h2 class="w3-wide">40 €</h2>
@@ -318,7 +318,7 @@
                     <ul class="w3-ul w3-white w3-hover-shadow">
                         <li class="w3-black w3-xlarge w3-padding-32">Dos Actividades</li>
                         <li class="w3-padding-16"><b>Boxeo</b></li>
-                        <li class="w3-padding-16"><b>Muay Thai</b></li>
+                        <li class="w3-padding-16"><b>Kick Boxing / K1</b></li>
                         <li class="w3-padding-16"><b>Defensa Personal</b></li>
                         <li class="w3-padding-16">
                         <h2 class="w3-wide">50 €</h2>
@@ -376,6 +376,7 @@
             <!-- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
         </footer>
         
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
         <script src="./js/app.js"></script>    
     </body>
 </html>
