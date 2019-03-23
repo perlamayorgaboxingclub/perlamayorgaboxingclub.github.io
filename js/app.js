@@ -39,19 +39,10 @@ function pm_map(){
 // Margin header
 $(document).ready(function() {
     // executes when HTML-Document is loaded and DOM is ready
-    /*
-    var navHeight = $("#navbar");
-    console.log(navHeight.outerHeight(true));
-    $("#home").css("margin-top", navHeight.outerHeight(true));
-    */
 });
-
-
-  
-  
+   
 $(window).on('load', function() {
     // executes when complete page is fully loaded, including all frames, objects and images
-
    this.pm_map();
 
 });
