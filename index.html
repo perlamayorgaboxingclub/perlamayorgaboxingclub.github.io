@@ -11,6 +11,9 @@
         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
             integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+            integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+            crossorigin=""/>
 
         <link rel="stylesheet" type="text/css" href="./css/app.css">        
     </head>
@@ -109,7 +112,7 @@
             <div class="w3-row-padding">
                 <div class="w3-col m6">
                     <h3>Nosotros practicamos deporte</h3>
-                    <p>En nuestra escuela se practica deportes de contacto<br>Muay Thai, Boxeo, Defensa Personal</p>
+                    <p>En nuestra escuela se practica deportes de contacto<br>Boxeo, Kick Boxing, Defensa Personal</p>
                     <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i>Visita Nuetras Clases</a></p>
                     </div>
                     <div class="w3-col m6">
@@ -139,7 +142,7 @@
                         <div class="w3-container">
                             <h3 style="min-height: 36px;">Joaquín</h3>
                             <p class="w3-opacity">Entrenador Kick Boxing / K1</p>
-                            <p>Competidor profesional de Muay Thai</p>
+                            <p>Competidor profesional de Kick Boxing</p>
                         </div>
                     </div>
                 </div>
@@ -225,7 +228,7 @@
 
             <div class="w3-row-padding">
                 <div class="w3-third w3-section">
-                    <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Muay Thai">
+                    <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kick Boxing">
                 </div>
                 <div class="w3-third w3-section">
                     <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Boxeo">
@@ -359,7 +362,8 @@
                 </form>
                 -->
                 <!-- Image of location/map -->
-                <img src="./images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+                <!--<img src="./images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px"> -->
+                <div id="mapid" class="w3-image w3-greyscale" style="width:100%;margin-top:48px;height: 100vh;"></div>
             </div>
         </div>
 
@@ -377,6 +381,8 @@
         </footer>
         
         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" 
+                integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
         <script src="./js/app.js"></script>    
     </body>
 </html>
