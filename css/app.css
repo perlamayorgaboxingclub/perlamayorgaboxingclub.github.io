@@ -45,6 +45,16 @@ body, html {
     min-height: 410px;
 }
 
+.pm-colab{
+    width: 50%;
+    height: 25%;
+}
+
+.pm-colab a{
+    display: block;
+    height: 100%;
+}
+
 @media (max-width: 690px) {
     .pm-hide-small {
         display: none!important;
