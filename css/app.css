@@ -59,6 +59,10 @@ body, html {
     padding-bottom: 15px;
 }
 
+.pm-padding-tabs{
+    padding: 20px 8px;
+}
+
 @media (max-width: 690px) {
     .pm-hide-small {
         display: none!important;
