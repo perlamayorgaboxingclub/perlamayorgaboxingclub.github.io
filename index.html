@@ -131,7 +131,7 @@
             <div class="w3-row-padding">
                 <div class="w3-col m6">              
                     <p>Gracias a la colaboración con el <a href="http://www.pozuelodelrey.es" target="_blank"> Ayto. de Pozuelo del Rey</i></a>, <br/> tenemos un espacio multifuncional donde podrás practicar deportes de contacto</p>
-                    <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i>Nuetras Clases</a></p>
+                    <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> Nuetras Clases</a></p>
                 </div>
                 <div class="w3-col m6" style="position: relative">
                     <img class="w3-image w3-round-large w3-greyscale" src="./images/colaboracion.jpg" alt="Colaboración" width="700" height="394">
@@ -246,8 +246,8 @@
 
         <!-- Work Section -->
         <div class="w3-container" style="padding:128px 16px" id="work">
-            <h3 class="w3-center">CLASES</h3>
-            <p class="w3-center w3-large">Se imparten clases</p>
+            <h3 class="w3-center">CLASES - HORARIOS</h3>
+            <p class="w3-center w3-large">Amplia variedad de clases y horarios</p>
 
             <!--
             <div class="w3-row-padding w3-section w3-center">
@@ -283,14 +283,123 @@
 
             <div class="w3-row-padding">
                 <div class="w3-third w3-section">
-                    <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kick Boxing">
+                    <div class="w3-center">
+                        <p>
+                            <button class="w3-button w3-block w3-dark-gray w3-padding-small w3-leftbar w3-border-grey w3-hover-dark-gray">BOXEO</button>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Boxeo">
+                    </div>
+                    <div class="w3-center">
+                        <p>
+                            <button onclick="document.getElementById('horario-boxeo').style.display='block'" class="w3-button w3-block w3-black">
+                                <i class="far fa-clock"></i> Horarios
+                            </button>
+                        </p>
+                    </div>
                 </div>
                 <div class="w3-third w3-section">
-                    <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Boxeo">
+                    <div class="w3-center">
+                        <p>
+                            <button class="w3-button w3-block w3-dark-gray w3-padding-small w3-leftbar w3-border-grey w3-hover-dark-gray">K1 / BOXEO</button>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="K1 / Boxeo">
+                    </div>
+                    <div class="w3-center">
+                        <p>
+                            <button onclick="document.getElementById('horario-kick').style.display='block'" class="w3-button w3-block w3-black">
+                                <i class="far fa-clock"></i> Horarios 
+                            </button>
+                        </p>
+                    </div>
+                </div>              
+                <div class="w3-third w3-section">
+                    <div class="w3-center">
+                        <p>
+                            <button class="w3-button w3-block w3-dark-gray w3-padding-small w3-leftbar w3-border-grey w3-hover-dark-gray">DEFENSA PERSONAL</button>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Defensa Personal">
+                    </div>
+                    <div class="w3-center">
+                        <p>
+                            <button onclick="document.getElementById('horario-defensa').style.display='block'" class="w3-button w3-block w3-black">
+                                <i class="far fa-clock"></i> Horarios 
+                            </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-row-padding">
+                <div class="w3-third w3-section">
+                    <div class="w3-center">
+                        <p>
+                            <button class="w3-button w3-block w3-dark-gray w3-padding-small w3-leftbar w3-border-grey w3-hover-dark-gray">MMA</button>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="MMA">
+                    </div>
+                    <div class="w3-center">
+                        <p>
+                            <button onclick="document.getElementById('horario-mma').style.display='block'" class="w3-button w3-block w3-black">
+                                <i class="far fa-clock"></i> Horarios
+                            </button>
+                        </p>
+                    </div>
                 </div>
                 <div class="w3-third w3-section">
-                    <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Defensa Personal">
+                    <div class="w3-center">
+                        <p>
+                            <button class="w3-button w3-block w3-dark-gray w3-padding-small w3-leftbar w3-border-grey w3-hover-dark-gray">K1 INFANTIL</button>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="K1 Infantil">
+                    </div>
+                    <div class="w3-center">
+                        <p>
+                            <button onclick="document.getElementById('horario-kickinfantil').style.display='block'" class="w3-button w3-block w3-black">
+                                <i class="far fa-clock"></i> Horarios
+                            </button>
+                        </p>
+                    </div>
+                </div>              
+                <div class="w3-third w3-section">
+                    <div class="w3-center">
+                        <p>
+                            <button class="w3-button w3-block w3-dark-gray w3-padding-small w3-leftbar w3-border-grey w3-hover-dark-gray">FUNCIONAL</button>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Funcional">
+                    </div>
+                    <div class="w3-center">
+                        <p>
+                            <button onclick="document.getElementById('horario-funcional').style.display='block'" class="w3-button w3-block w3-black">
+                                <i class="far fa-clock"></i> Horarios 
+                            </button>
+                        </p>
+                    </div>
                 </div>
+            </div>
+            <div class="w3-row-padding">
+                    <div class="w3-third w3-section"></div>
+                <div class="w3-third w3-section">
+                    <div class="w3-center">
+                        <p>
+                            <button onclick="document.getElementById('horario-semana').style.display='block'" class="w3-button w3-block w3-light-gray w3-bottombar w3-border-black">
+                                <i class="fas fa-clock"></i> Horarios semana
+                            </button>
+                        </p>
+                    </div>
+                </div>
+                <div class="w3-third w3-section"></div>
             </div>
             
         </div>
@@ -303,6 +412,208 @@
                 <p id="caption" class="w3-opacity w3-large"></p>
             </div>
         </div>
+
+        <!-- Clases Modal -->
+        <div id="horario-boxeo" class="w3-modal">
+            <div class="w3-modal-content w3-animate-zoom">
+                <div class="w3-container w3-black w3-display-container">
+                    <span onclick="document.getElementById('horario-boxeo').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+                    <h1>Boxeo</h1>
+                </div>
+                <div class="w3-container w3-dark-grey w3-center w3-display-container">
+                    <h4>Tardes</h4>
+                </div>
+                <div class="w3-container">
+                    <div class="w3-col m6"><h5>Martes y Jueves</h5></div>
+                    <div class="w3-col m6"><h5><b>20:00 a 22:00 h.</b></h5></div>                    
+                </div>
+            </div>
+        </div>
+        
+        <div id="horario-kick" class="w3-modal">
+            <div class="w3-modal-content w3-animate-zoom">
+                <div class="w3-container w3-black w3-display-container">
+                    <span onclick="document.getElementById('horario-kick').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+                    <h1>K1 / Boxeo</h1>
+                </div>
+                <div>
+                    <div class="w3-container w3-dark-grey w3-center w3-display-container">
+                        <h4>Mañanas</h4>
+                    </div>
+                    <div class="w3-container">
+                        <div class="w3-col m6"><h5>Lunes a Viernes</h5></div>
+                        <div class="w3-col m6"><h5><b>10:00 a 12:00 h.</b></h5></div>                    
+                    </div>
+                    <div class="w3-container">
+                        <div class="w3-col m6"><h5>Sábados</h5></div>
+                        <div class="w3-col m6"><h5><b>11:00 a 13:00 h.</b></h5></div>                    
+                    </div>
+                </div>
+
+                <div>
+                    <div class="w3-container w3-dark-grey w3-center w3-display-container">
+                        <h4>Tardes</h4>
+                    </div>
+                    <div class="w3-container">
+                        <div class="w3-col m6"><h5>Lunes - Miércoles - Viernes</h5></div>
+                        <div class="w3-col m6"><h5><b>20:00 a 22:00 h.</b></h5></div>                    
+                    </div>
+                </div>              
+            </div>
+        </div>
+
+        <div id="horario-defensa" class="w3-modal">
+            <div class="w3-modal-content w3-animate-zoom">
+                <div class="w3-container w3-black w3-display-container">
+                    <span onclick="document.getElementById('horario-defensa').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+                    <h1>Defensa Personal</h1>
+                </div>
+                <div>
+                    <div class="w3-container w3-dark-grey w3-center w3-display-container">
+                        <h4>Tardes</h4>
+                    </div>
+                    <div class="w3-container">
+                        <div class="w3-col m6"><h5>Martes y Jueves</h5></div>
+                        <div class="w3-col m6"><h5><b>17:30 a 18:30 h.</b></h5></div>                    
+                    </div>
+                </div>          
+            </div>
+        </div>
+
+        <div id="horario-mma" class="w3-modal">
+            <div class="w3-modal-content w3-animate-zoom">
+                <div class="w3-container w3-black w3-display-container">
+                    <span onclick="document.getElementById('horario-mma').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+                    <h1>MMA</h1>
+                </div>
+                <div>
+                    <div class="w3-container w3-dark-grey w3-center w3-display-container">
+                        <h4>Tardes</h4>
+                    </div>
+                    <div class="w3-container">
+                        <div class="w3-col m6"><h5>Lunes - Miércoles - Viernes</h5></div>
+                        <div class="w3-col m6"><h5><b>17:30 a 18:30 h.</b></h5></div>                    
+                    </div>
+                </div>          
+            </div>
+        </div>
+
+        <div id="horario-kickinfantil" class="w3-modal">
+            <div class="w3-modal-content w3-animate-zoom">
+                <div class="w3-container w3-black w3-display-container">
+                    <span onclick="document.getElementById('horario-kickinfantil').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+                    <h1>K1 infantil</h1>
+                </div>
+                <div>
+                    <div class="w3-container w3-dark-grey w3-center w3-display-container">
+                        <h4>Tardes</h4>
+                    </div>
+                    <div class="w3-container">
+                        <div class="w3-col m6"><h5>Martes y Jueves</h5></div>
+                        <div class="w3-col m6"><h5><b>18:30 a 19:30 h.</b></h5></div>                    
+                    </div>
+                </div>          
+            </div>
+        </div>
+
+        <div id="horario-funcional" class="w3-modal">
+            <div class="w3-modal-content w3-animate-zoom">
+                <div class="w3-container w3-black w3-display-container">
+                    <span onclick="document.getElementById('horario-funcional').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+                    <h1>Funcional</h1>
+                </div>
+                <div>
+                    <div class="w3-container w3-dark-grey w3-center w3-display-container">
+                        <h4>Tardes</h4>
+                    </div>
+                    <div class="w3-container">
+                        <div class="w3-col m6"><h5>Lunes a Viernes</h5></div>
+                        <div class="w3-col m6"><h5><b>19:00 a 20:00 h.</b></h5></div>                    
+                    </div>
+                </div>          
+            </div>
+        </div>
+
+         
+        <div id="horario-semana" class="w3-modal">
+            <div class="w3-modal-content w3-animate-zoom">
+                <div class="w3-container w3-black w3-display-container">
+                    <span onclick="document.getElementById('horario-semana').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+                    <h1>Mañanas</h1>
+                </div>
+                <div>
+                    <div class="w3-container w3-dark-grey w3-center w3-display-container">
+                        <h4>K1 / Boxeo</h4>
+                    </div>
+                    <div class="w3-container">
+                        <div class="w3-col m6"><h5>Lunes a Viernes</h5></div>
+                        <div class="w3-col m6"><h5><b>10:00 a 12:00 h.</b></h5></div>                    
+                    </div>
+                    <div class="w3-container">
+                        <div class="w3-col m6"><h5>Sábados</h5></div>
+                        <div class="w3-col m6"><h5><b>11:00 a 13:00 h.</b></h5></div>                    
+                    </div>
+                </div>
+                <div class="w3-container w3-black w3-display-container">
+                    <h1>Tardes</h1>
+                </div>
+                <div>
+                    <div class="w3-container w3-dark-grey w3-center w3-display-container">
+                        <h4>MMA</h4>
+                    </div>
+                    <div class="w3-container">
+                        <div class="w3-col m6"><h5>Lunes - Miércoles - Viernes</h5></div>
+                        <div class="w3-col m6"><h5><b>17:30 a 18:30 h.</b></h5></div>                    
+                    </div>
+                </div>  
+                <div>
+                    <div class="w3-container w3-dark-grey w3-center w3-display-container">
+                        <h4>Defensa personal</h4>
+                    </div>
+                    <div class="w3-container">
+                        <div class="w3-col m6"><h5>Martes y Jueves</h5></div>
+                        <div class="w3-col m6"><h5><b>17:30 a 18:30 h.</b></h5></div>                    
+                    </div>
+                </div>    
+                <div>
+                    <div class="w3-container w3-dark-grey w3-center w3-display-container">
+                        <h4>K1 infantil</h4>
+                    </div>
+                    <div class="w3-container">
+                        <div class="w3-col m6"><h5>Martes y Jueves</h5></div>
+                        <div class="w3-col m6"><h5><b>18:30 a 19:30 h.</b></h5></div>                    
+                    </div>
+                </div> 
+                <div>
+                    <div class="w3-container w3-dark-grey w3-center w3-display-container">
+                        <h4>Funcional</h4>
+                    </div>
+                    <div class="w3-container">
+                        <div class="w3-col m6"><h5>Lunes a Viernes</h5></div>
+                        <div class="w3-col m6"><h5><b>19:00 a 20:00 h.</b></h5></div>                    
+                    </div>
+                </div>     
+                <div>
+                    <div class="w3-container w3-dark-grey w3-center w3-display-container">
+                        <h4>K1 / Boxeo</h4>
+                    </div>
+                    <div class="w3-container">
+                        <div class="w3-col m6"><h5>Lunes - Miércoles - Viernes</h5></div>
+                        <div class="w3-col m6"><h5><b>20:00 a 22:00 h.</b></h5></div>                    
+                    </div>                                       
+                </div>   
+                <div>
+                    <div class="w3-container w3-dark-grey w3-center w3-display-container">
+                        <h4>Boxeo</h4>
+                    </div>
+                    <div class="w3-container">
+                        <div class="w3-col m6"><h5>Martes y Jueves</h5></div>
+                        <div class="w3-col m6"><h5><b>20:00 a 22:00 h.</b></h5></div>                    
+                    </div>                                    
+                </div>                
+            </div>
+        </div>
+
 
         <!-- Skills Section -->
         <!--
