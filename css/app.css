@@ -71,3 +71,35 @@ body, html {
     }
 }
 
+@media (max-width: 600px) {
+
+    #pricing a div{
+        width: 100%;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    #NoEmpadronado h3,
+    #Empadronado h3,
+    #Ofertas h3{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #NoEmpadronado div,
+    #Empadronado div,
+    #Ofertas div{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #NoEmpadronado div span,
+    #Empadronado div span,
+    #Ofertas div span{
+        display: block;
+        text-align: center;
+        float: none !important;
+    }
+
+
+}
+
