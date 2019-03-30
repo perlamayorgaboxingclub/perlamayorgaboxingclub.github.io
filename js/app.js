@@ -36,13 +36,34 @@ function pm_map(){
         .openPopup();
 }
 
-// Margin header
+function pm_setHeight(column) {
+    var maxHeight = 0;
+    //Get all the element with class = pm-cvmaestros
+    column = $(column);
+    column.css('height', 'auto');
+    //Loop all the column
+    column.each(function() {       
+        //Store the highest value
+        if($(this).height() > maxHeight) {
+            maxHeight = $(this).height();
+        }
+    });
+    //Set the height
+    column.height(maxHeight);
+}
+
+
 $(document).ready(function() {
     // executes when HTML-Document is loaded and DOM is ready
 });
    
 $(window).on('load', function() {
     // executes when complete page is fully loaded, including all frames, objects and images
-   this.pm_map();
+    this.pm_map();
+    pm_setHeight('.pm-cvmaestros');
+});
 
+$(window).resize(function() {
+    // execute when resize window
+    pm_setHeight('.pm-cvmaestros');
 });
