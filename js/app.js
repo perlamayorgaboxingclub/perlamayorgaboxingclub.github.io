@@ -53,6 +53,11 @@ function pm_setHeight(column) {
     column.height(maxHeight);
 }
 
+function pm_setHeightAuto(column) {
+    column = $(column);
+    column.css('height', 'auto');
+}
+
 
 $(document).ready(function() {
     // executes when HTML-Document is loaded and DOM is ready
@@ -61,10 +66,26 @@ $(document).ready(function() {
 $(window).on('load', function() {
     // executes when complete page is fully loaded, including all frames, objects and images
     this.pm_map();
-    pm_setHeight('.pm-cvmaestros');
+    if($(window).width() > 600){
+        pm_setHeight('.pm-cvmaestros');
+        pm_setHeight('.pm-gymhorarios');
+    }
+    else{
+        pm_setHeightAuto('.pm-cvmaestros');
+        pm_setHeightAuto('.pm-gymhorarios');
+     }
+    
 });
 
 $(window).resize(function() {
     // execute when resize window
-    pm_setHeight('.pm-cvmaestros');
+    if($(window).width() > 600) {
+        pm_setHeight('.pm-cvmaestros');
+        pm_setHeight('.pm-gymhorarios');
+    }
+    else{
+        pm_setHeightAuto('.pm-cvmaestros');
+        pm_setHeightAuto('.pm-gymhorarios');
+    }
+    
 });

@@ -55,12 +55,19 @@ body, html {
     height: 100%;
 }
 
-.pm-cvmaestros{
+.pm-cvmaestros {
     padding-bottom: 15px;
+}
+
+.pm-gymhorarios{
+    padding-bottom: 15px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .pm-padding-tabs{
     padding: 20px 8px;
+    font-weight: 600;
 }
 
 @media (max-width: 690px) {
