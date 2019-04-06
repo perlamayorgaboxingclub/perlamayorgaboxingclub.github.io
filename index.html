@@ -58,6 +58,7 @@
         </nav>
 
         <!-- Header with full-height image -->
+        <!--
         <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
             <div class="w3-display-bottomleft w3-text-white pm-gray" style="padding:43px">
                 <span class="w3-xxlarge w3-hide-small">"Algo estaremos <br/> haciendo bien"</span><br>
@@ -76,15 +77,65 @@
                 <a href="https://twitter.com/PerlaBoxingClub" target="_blank"><i class="fab fa-twitter w3-hover-opacity"></i></a>
                 <a href="https://www.youtube.com/channel/UC84FFyDvy7jvCQPrj-VATWw" target="_blank"><i class="fab fa-youtube w3-hover-opacity"></i></a>
                 <a href="https://api.whatsapp.com/send?phone=34660722831"><i class="fab fa-whatsapp w3-hover-opacity"></i></a>
+            </div>                    
+        </header>
+        -->
+
+        <header class="w3-display-container w3-grayscale-min pm-header" id="home">
+            <div class="pm-slider">
+                <div class="spanImages"></div>
+                <div class="messageHeader"> 
+                    <div class="w3-display-bottomleft w3-text-white pm-gray" style="padding: 24px 43px;">
+                        <div>
+                            <span class="w3-xxlarge w3-hide-small">"Algo estaremos <br/> haciendo bien"</span><br>
+                            <span class="w3-xlarge w3-hide-large w3-hide-medium">"Algo estaremos <br/> haciendo bien"</span><br>
+                            
+                            <span class="w3-large w3-hide-small"><i>J.M. Mayorga 'Perla'</i></span>
+                            <span class="w3-small w3-hide-large w3-hide-medium"><i>J.M. Mayorga 'Perla'</i></span>
+                            <p>
+                                <a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off w3-hide-small">Conócenos</a>
+                                <a href="#about" class="w3-button w3-white w3-padding-large w3-small w3-margin-top w3-opacity w3-hover-opacity-off w3-hide-large w3-hide-medium">Conócenos</a>
+                            </p>
+                        </div>
+                        <div class="w3-text-dark-grey w3-large">
+                            <a href="https://www.facebook.com/perla.mayorga.9484" target="_blank"><i class="fab fa-facebook w3-hover-opacity"></i></a> 
+                            <i class="fab fa-instagram w3-hover-opacity"></i>                
+                            <a href="https://twitter.com/PerlaBoxingClub" target="_blank"><i class="fab fa-twitter w3-hover-opacity"></i></a>
+                            <a href="https://www.youtube.com/channel/UC84FFyDvy7jvCQPrj-VATWw" target="_blank"><i class="fab fa-youtube w3-hover-opacity"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=34660722831"><i class="fab fa-whatsapp w3-hover-opacity"></i></a>
+                        </div> 
+                    </div> 
+                    
+                </div>
             </div>
-            <!--
-            <div class="w3-content w3-section" style="max-width:100%">
-                <img class="mySlides w3-animate-fading" src="https://source.unsplash.com/random/1200x800" style="width:100%">
-                <img class="mySlides w3-animate-fading" src="https://source.unsplash.com/random/1200x800" style="width:100%">
-                <img class="mySlides w3-animate-fading" src="https://source.unsplash.com/random/1200x800" style="width:100%">
-                <img class="mySlides w3-animate-fading" src="https://source.unsplash.com/random/1200x800" style="width:100%">
-            </div>
-            -->
+
+            <div class="pm-slider">
+                    <div class="spanImages"></div>
+                    <div class="messageHeader"> 
+                        <div class="w3-display-bottomleft w3-text-white pm-gray" style="padding:24px 43px;">
+                            <div>
+                                <span class="w3-xxlarge w3-hide-small">"Algo estaremos <br/> haciendo bien"</span><br>
+                                <span class="w3-xlarge w3-hide-large w3-hide-medium">"Algo estaremos <br/> haciendo bien"</span><br>
+                                
+                                <span class="w3-large w3-hide-small"><i>J.M. Mayorga 'Perla'</i></span>
+                                <span class="w3-small w3-hide-large w3-hide-medium"><i>J.M. Mayorga 'Perla'</i></span>
+                                <p>
+                                    <a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off w3-hide-small">Conócenos</a>
+                                    <a href="#about" class="w3-button w3-white w3-padding-large w3-small w3-margin-top w3-opacity w3-hover-opacity-off w3-hide-large w3-hide-medium">Conócenos</a>
+                                </p>
+                            </div>
+                            <div class="w3-text-dark-grey w3-large">
+                                    <a href="https://www.facebook.com/perla.mayorga.9484" target="_blank"><i class="fab fa-facebook w3-hover-opacity"></i></a> 
+                                    <i class="fab fa-instagram w3-hover-opacity"></i>                
+                                    <a href="https://twitter.com/PerlaBoxingClub" target="_blank"><i class="fab fa-twitter w3-hover-opacity"></i></a>
+                                    <a href="https://www.youtube.com/channel/UC84FFyDvy7jvCQPrj-VATWw" target="_blank"><i class="fab fa-youtube w3-hover-opacity"></i></a>
+                                    <a href="https://api.whatsapp.com/send?phone=34660722831"><i class="fab fa-whatsapp w3-hover-opacity"></i></a>
+                            </div> 
+                        </div> 
+                      
+                    </div>
+                </div>
+
         </header>
 
         <!-- School Section -->
@@ -1095,25 +1146,6 @@
             }
             document.getElementById("myLink").click();
         </script>
-        
-        <!--
-        <script>
-            var myIndex = 0;
-            carousel();
-            
-            function carousel() {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";  
-                }
-                myIndex++;
-                if (myIndex > x.length) {myIndex = 1}    
-                x[myIndex-1].style.display = "block";  
-                setTimeout(carousel, 9000);    
-            }
-        </script>
-        -->
 
     </body>
 </html>

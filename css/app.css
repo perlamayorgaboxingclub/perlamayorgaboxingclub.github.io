@@ -8,12 +8,106 @@ body, html {
 }
 
 /* Full height image header */
+/*
 .bgimg-1 {
     background-position: center;
     background-size: cover;
-    background-image: url("../images/fotoportada_02.jpg");
+    background-image: url("../images/header/fotoportada_01.jpg");
     min-height: 100%;
 }
+*/
+
+/************************/
+.pm-header,
+.pm-header:after { 
+    min-height: 100%;
+}
+.pm-header:after { 
+    content: '';
+    background: transparent url("../images/header/fotoportada_01.jpg") repeat top left; 
+}
+.pm-header .spanImages { 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 12s linear infinite 0s; 
+}
+
+.pm-header .messageHeader { 
+    z-index: 1000;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    animation: titleAnimation 12s linear infinite 0s; 
+}
+.pm-header div:nth-child(1) .spanImages { 
+    background-image: url("../images/header/fotoportada_01.jpg") 
+}
+
+.pm-header  div:nth-child(2) .spanImages { 
+    background-image: url("../images/header/fotoportada_02.jpg");
+    animation-delay: 6s; 
+}
+
+.pm-header div:nth-child(2) .messageHeader { 
+    animation-delay: 6s; 
+}
+
+@keyframes imageAnimation { 
+	0% {
+	    opacity: 0;
+	    animation-timing-function: ease-in;
+	}
+	25% {
+	    opacity: 1;
+	    transform: scale(1.05);
+	    animation-timing-function: ease-out;
+	}
+	50% {
+	    opacity: 1;
+	    transform: scale(1.1) rotate(3deg);
+	}
+	75% {
+	    opacity: 0;
+	    transform: scale(1.1) rotate(3deg);
+	}
+	100% { opacity: 0 }
+}
+
+@keyframes titleAnimation { 
+	0% {
+	    opacity: 0;
+	    transform: translateX(200px);
+	}
+	25% {
+	    opacity: 1;
+	    transform: translateX(0px);
+	}
+	50% {
+	    opacity: 1;
+	    transform: translateX(0px);
+	}
+	60% {
+	    opacity: 0;
+	    transform: translateX(-400px);
+	}
+	75% { opacity: 0 }
+	100% { opacity: 0 }
+}
+
+/*************************/
 
 .w3-bar .w3-button {
     padding: 16px;
@@ -26,7 +120,7 @@ body, html {
 }
 
 #home {
-    margin-top: 75px;
+    /*margin-top: 75px;*/
 }
 
 #home .pm-gray{
@@ -69,6 +163,8 @@ body, html {
     padding: 20px 8px;
     font-weight: 600;
 }
+
+
 
 @media (max-width: 690px) {
     .pm-hide-small {
