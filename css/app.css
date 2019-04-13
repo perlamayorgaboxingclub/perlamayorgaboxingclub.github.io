@@ -38,7 +38,7 @@ body, html {
     background-repeat: none;
     opacity: 0;
     z-index: 0;
-    animation: imageAnimation 12s linear infinite 0s; 
+    animation: imageAnimation 36s linear infinite 0s; 
 }
 
 .pm-header .messageHeader { 
@@ -50,33 +50,70 @@ body, html {
     text-align: center;
     opacity: 0;
     color: #fff;
-    animation: titleAnimation 12s linear infinite 0s; 
+    animation: titleAnimation 36s linear infinite 0s; 
 }
 .pm-header div:nth-child(1) .spanImages { 
-    background-image: url("../images/header/fotoportada_01.jpg") 
+    background-image: url("../images/header/fotoportada_02.jpg") 
 }
 
 .pm-header  div:nth-child(2) .spanImages { 
-    background-image: url("../images/header/fotoportada_02.jpg");
+    background-image: url("../images/header/fotoportada_03.jpg");
     animation-delay: 6s; 
+}
+
+.pm-header  div:nth-child(3) .spanImages { 
+    background-image: url("../images/header/fotoportada_04.jpg");
+    animation-delay: 12s; 
+}
+
+.pm-header  div:nth-child(4) .spanImages { 
+    background-image: url("../images/header/fotoportada_05.jpg");
+    animation-delay: 18s; 
+}
+
+.pm-header  div:nth-child(5) .spanImages { 
+    background-image: url("../images/header/fotoportada_06.jpg");
+    animation-delay: 24s; 
+}
+
+.pm-header  div:nth-child(6) .spanImages { 
+    background-image: url("../images/header/fotoportada_07.jpg");
+    animation-delay: 30s; 
 }
 
 .pm-header div:nth-child(2) .messageHeader { 
     animation-delay: 6s; 
 }
 
+.pm-header div:nth-child(3) .messageHeader { 
+    animation-delay: 12s; 
+}
+
+.pm-header div:nth-child(4) .messageHeader { 
+    animation-delay: 18s; 
+}
+
+.pm-header div:nth-child(5) .messageHeader { 
+    animation-delay: 24s; 
+}
+
+.pm-header div:nth-child(6) .messageHeader { 
+    animation-delay: 30s; 
+}
+
+
 @keyframes imageAnimation { 
     0% { opacity: 0; animation-timing-function: ease-in; }
-    25% { opacity: 1; animation-timing-function: ease-out; }
-    50% { opacity: 1 }
-    75% { opacity: 0 }
+    8% { opacity: 1; animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
     100% { opacity: 0 }
 }
 @keyframes titleAnimation { 
     0% { opacity: 0 }
-    25% { opacity: 1 }
-    50% { opacity: 1 }
-    60% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+    19% { opacity: 0 }
     100% { opacity: 0 }
 }
 
