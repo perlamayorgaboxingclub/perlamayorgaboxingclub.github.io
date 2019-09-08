@@ -246,7 +246,6 @@ body, html {
     text-decoration: none;
 }
 #closePopupCook {
-    float: right;
     display: inline-block;
     cursor: pointer;
     height: 20px;
