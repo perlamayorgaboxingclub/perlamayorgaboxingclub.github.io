@@ -25,7 +25,7 @@ function w3_close() {
 }
 
 function pm_map(){
-    var contentPopup = '<div><div><img src="../images/logo.png" alt="Prueba"></img></div><div><p><b>Perla Mayorga Boxing Club</b></p><p>28813, Pozuelo del Rey</p><p>40.367091, -3.316149</p></div></div>'
+    var contentPopup = '<div><div class="w3-center"><img src="../images/logo.png" alt="Prueba"></img></div><div><p><b>Perla Mayorga Boxing Club</b></p><p>28813, Pozuelo del Rey</p><p>40.367091, -3.316149</p></div></div>'
 		
     var osmUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
         osmAttrib = '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -73,7 +73,14 @@ $(window).on('load', function() {
     else{
         pm_setHeightAuto('.pm-cvmaestros');
         pm_setHeightAuto('.pm-gymhorarios');
-     }
+    }
+
+    setTimeout(function () {
+        $("#popupCook").fadeIn(200);
+     }, 4000);
+    $("#closePopupCook, .popupCookOK").click(function() {
+        $("#popupCook").fadeOut(200);
+    }); 
     
 });
 
