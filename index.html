@@ -21,13 +21,40 @@
     <body>
 
         <!-- Navbar (sit on top) -->
+        <div class="w3-top">
+            <div class="w3-bar w3-white" id="myNavbar">
+                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large pm-hide-medium" onclick="w3_open()">
+                    <i class="fas fa-align-justify"></i>
+                </a>
+                <a href="#home" class="w3-bar-item" style="padding: 6px 16px;" onclick="w3_close()"><img src="./images/logo.png" alt="Perla Mayorga Boxing Club"></a>
+                <div class="w3-right pm-hide-small">
+                    <a href="#about" class="w3-bar-item w3-button"><i class="fas fa-dumbbell"></i> ESCUELA</a>
+                    <a href="#team" class="w3-bar-item w3-button"><i class="fas fa-users"></i> EQUIPO</a>
+                    <a href="#work" class="w3-bar-item w3-button"><i class="fas fa-th"></i> CLASES</a>
+                    <a href="#pricing" class="w3-bar-item w3-button"><i class="fas fa-euro-sign"></i> TARIFAS</a>
+                    <a href="#contact" class="w3-bar-item w3-button"><i class="fas fa-envelope"></i> CONTACTO</a>
+                </div>
+            </div>
+
+            <div class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-right w3-hide-large pm-hide-medium" style="display:none; right:0" id="mySidebar">    
+                <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-dumbbell"></i> ESCUELA</a>
+                <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-users"></i> EQUIPO</a>
+                <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-th"></i> CLASES</a>
+                <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-euro-sign"></i> TARIFAS</a>
+                <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-envelope"></i> CONTACTO</a>         
+            </div>
+        </div>
+        
+        <!-- Navbar (sit on top) -->
+        <!--
         <div class="w3-top" id="navbar">
             <div class="w3-bar w3-white w3-card" id="myNavbar">
                 <a href="#home" class="w3-bar-item w3-button w3-wide">
                     <img src="./images/logo.png" alt="Perla Mayorga Boxing Club">
                 </a>
-
+                -->
                 <!-- Right-sided navbar links -->
+                <!--
                 <div class="w3-right pm-hide-small pm-vertical">
                     <a href="#about" class="w3-bar-item w3-button"><i class="fas fa-dumbbell"></i></i> ESCUELA</a>
                     <a href="#team" class="w3-bar-item w3-button"><i class="fas fa-users"></i> EQUIPO</a>
@@ -35,15 +62,18 @@
                     <a href="#pricing" class="w3-bar-item w3-button"><i class="fas fa-euro-sign"></i> TARIFAS</a>
                     <a href="#contact" class="w3-bar-item w3-button"><i class="fas fa-envelope"></i> CONTACTO</a>
                 </div>
-
+                -->
                 <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+                <!--
                 <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large pm-hide-medium pm-vertical" onclick="w3_open()">
                     <i class="fas fa-align-justify"></i>
                 </a>
             </div>
         </div>
+        -->
 
         <!-- Sidebar on small screens when clicking the menu icon -->
+        <!--
         <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
             <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16 w3-display-container">Menu 
                 <span class="w3-button w3-display-right"><i class="far fa-times-circle"></i></span>
@@ -53,32 +83,8 @@
             <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">EQUIPO</a>
             <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">CLASES</a>
             <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">TARIFAS</a>
-            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACTO</a>
-            
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACTO</a>            
         </nav>
-
-        <!-- Header with full-height image -->
-        <!--
-        <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-            <div class="w3-display-bottomleft w3-text-white pm-gray" style="padding:43px">
-                <span class="w3-xxlarge w3-hide-small">"Algo estaremos <br/> haciendo bien"</span><br>
-                <span class="w3-xlarge w3-hide-large w3-hide-medium">"Algo estaremos <br/> haciendo bien"</span><br>
-                
-                <span class="w3-large w3-hide-small"><i>J.M. Mayorga 'Perla'</i></span>
-                <span class="w3-small w3-hide-large w3-hide-medium"><i>J.M. Mayorga 'Perla'</i></span>
-                <p>
-                    <a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off w3-hide-small">Conócenos</a>
-                    <a href="#about" class="w3-button w3-white w3-padding-large w3-small w3-margin-top w3-opacity w3-hover-opacity-off w3-hide-large w3-hide-medium">Conócenos</a>
-                </p>
-            </div> 
-            <div class="w3-display-bottomleft w3-text-dark-grey w3-large" style="padding:24px 48px">
-                <a href="https://www.facebook.com/perla.mayorga.9484" target="_blank"><i class="fab fa-facebook w3-hover-opacity"></i></a> 
-                <i class="fab fa-instagram w3-hover-opacity"></i>                
-                <a href="https://twitter.com/PerlaBoxingClub" target="_blank"><i class="fab fa-twitter w3-hover-opacity"></i></a>
-                <a href="https://www.youtube.com/channel/UC84FFyDvy7jvCQPrj-VATWw" target="_blank"><i class="fab fa-youtube w3-hover-opacity"></i></a>
-                <a href="https://api.whatsapp.com/send?phone=34644834571"><i class="fab fa-whatsapp w3-hover-opacity"></i></a>
-            </div>                    
-        </header>
         -->
 
         <header class="w3-display-container w3-grayscale-min pm-header" id="home">
@@ -1153,7 +1159,8 @@
                     </div>
                     <hr>
                     -->
-                                      
+                    
+                    <!--
                     <h3><b>Desempleado</b></h3>
                     <div class="w3-container w3-section">
                         <div class="w3-col m6">
@@ -1172,6 +1179,7 @@
                         </div>
                     </div>
                     <hr>
+                    -->
 
                     <!--
                     <h3 class="w3-hide-small"><b>En pareja 50% descuento en la cuota más alta</b></h3>

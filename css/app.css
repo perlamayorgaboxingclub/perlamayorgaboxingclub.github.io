@@ -17,7 +17,7 @@ body, html {
 }
 */
 
-/************************/
+/***************************************************************************************/
 .pm-header,
 .pm-header:after { 
     min-height: 100%;
@@ -33,12 +33,17 @@ body, html {
     top: 0px;
     left: 0px;
     color: transparent;
-    background-position: 50% 50%;
+    /*background-position: 50% 50%;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     opacity: 0;
     z-index: 0;
     animation: imageAnimation 36s linear infinite 0s; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
 }
 
 .pm-header .messageHeader { 
@@ -53,38 +58,44 @@ body, html {
     animation: titleAnimation 36s linear infinite 0s; 
 }
 .pm-header div:nth-child(1) .spanImages { 
-    background-image: url("../images/header/fotoportada_02.jpg");
-    background-position: 0% 50%;
+    background-image: url("../images/header/fotoportada_02_center.jpg");
+    /*background-position: 0% 50%;*/
+    background-position: center;
 }
 
 .pm-header  div:nth-child(2) .spanImages { 
-    background-image: url("../images/header/fotoportada_03.jpg");
+    background-image: url("../images/header/fotoportada_03_center.jpg");
     animation-delay: 6s; 
-    background-position: 100% 50%;
+    /*background-position: 100% 50%;*/
+    background-position: center;    
 }
 
 .pm-header  div:nth-child(3) .spanImages { 
-    background-image: url("../images/header/fotoportada_04.jpg");
+    background-image: url("../images/header/fotoportada_04_center.jpg");
     animation-delay: 12s; 
-    background-position: 50% 50%;
+    /*background-position: 50% 50%;*/
+    background-position: center;
 }
 
 .pm-header  div:nth-child(4) .spanImages { 
-    background-image: url("../images/header/fotoportada_05.jpg");
+    background-image: url("../images/header/fotoportada_05_center.jpg");
     animation-delay: 18s; 
-    background-position: 50% 50%;
+    /*background-position: 50% 50%;*/
+    background-position: center;
 }
 
 .pm-header  div:nth-child(5) .spanImages { 
-    background-image: url("../images/header/fotoportada_06.jpg");
+    background-image: url("../images/header/fotoportada_06_center.jpg");
     animation-delay: 24s;
-    background-position: 0% 50%; 
+    /*background-position: 0% 50%; */
+    background-position: center;
 }
 
 .pm-header  div:nth-child(6) .spanImages { 
-    background-image: url("../images/header/fotoportada_07.jpg");
+    background-image: url("../images/header/fotoportada_07_center.jpg");
     animation-delay: 30s; 
-    background-position: 0% 50%; 
+    /*background-position: 0% 50%; */
+    background-position: center;
 }
 
 .pm-header div:nth-child(2) .messageHeader { 
@@ -179,9 +190,11 @@ body, html {
     height: 75px;
 }
 
+/*
 #home {
     margin-top: 75px;
 }
+*/
 
 #home .pm-gray{
     background-color: #9e9e9ebf;
@@ -223,6 +236,8 @@ body, html {
     padding: 20px 8px;
     font-weight: 600;
 }
+
+
 
 /***********************************************************/
 /*Cookie Consent Begin*/
@@ -279,7 +294,7 @@ body, html {
     }
     #home .pm-gray{
         right: 0px;
-        bottom: 75px;
+        /*bottom: 75px;*/
         left: 0px;
         padding: 12px 20px !important;
         background-color: #9e9e9e96;
