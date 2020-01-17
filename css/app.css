@@ -285,6 +285,9 @@ body, html {
 }
 /*Cookie Consent End*/
 
+.pm-height{
+    display: none !important;
+}
 
 @media (max-width: 420px) {
     #home .messageHeader{
@@ -298,6 +301,11 @@ body, html {
         left: 0px;
         padding: 12px 20px !important;
         background-color: #9e9e9e96;
+    }
+
+    #home .pm-height{
+        right: 0px;
+        left: 0px;
     }
 }
 
@@ -343,5 +351,14 @@ body, html {
     }
 
 
+}
+
+@media (max-height:  340px) {
+    #home .pm-gray{
+       display: none !important;
+    }
+    .pm-height{
+        display: inline-block !important;
+    }
 }
 
