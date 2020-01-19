@@ -90,7 +90,7 @@ $(document).ready(function() {
 $(window).on('load', function() {
     // executes when complete page is fully loaded, including all frames, objects and images
     this.pm_map();
-    if($(window).width() > 600){
+    if($(window).width() > 580){
         pm_setHeight('.pm-cvmaestros');
         pm_setHeight('.pm-gymhorarios');
     }
@@ -110,7 +110,7 @@ $(window).on('load', function() {
 
 $(window).resize(function() {
     // execute when resize window
-    if($(window).width() > 600) {
+    if($(window).width() > 580) {
         pm_setHeight('.pm-cvmaestros');
         pm_setHeight('.pm-gymhorarios');
     }
