@@ -59,28 +59,42 @@ function pm_setHeightAuto(column) {
 }
 
 
-
-
 //------------------------------------------------------
 // Change style of navbar on scroll
 window.onscroll = function () { 
-    myFunction();
+    scrollFunction();
 };
 
-function myFunction() {
+function scrollFunction() {
     var navbar = document.getElementById("myNavbar");
+    var pmBtnToUp = document.getElementById("pm-btnToUp");
     w3_close();
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        pmBtnToUp.style.display = "block";
     } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top", "w3-white w3-opacity");
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top", " w3-white w3-opacity");
+        pmBtnToUp.style.display = "none";
     }
 }
 //-------------------------------------------------------
 
-
-
-
+//------------------------------------------------------
+// Tabbed pricing
+function openMenu(evt, menuName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("pricing");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" w3-black", "");
+    }
+    document.getElementById(menuName).style.display = "block";
+    evt.currentTarget.firstElementChild.className += " w3-black";
+}
+//------------------------------------------------------
 
 
 $(document).ready(function() {
@@ -105,7 +119,9 @@ $(window).on('load', function() {
     $("#closePopupCook, .popupCookOK").click(function() {
         $("#popupCook").fadeOut(200);
     }); 
-    
+
+    // Tabbed pricing
+    document.getElementById("myLink").click();    
 });
 
 $(window).resize(function() {

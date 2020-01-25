@@ -24,69 +24,37 @@
         <div class="w3-top">
             <div class="w3-bar w3-white w3-opacity" id="myNavbar">
                 <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large pm-hide-medium" onclick="w3_open()">
-                    <i class="fas fa-align-justify"></i>
+                    <i class="fas fa-bars"></i>
                 </a>
                 <a href="#home" class="w3-bar-item" style="padding: 6px 16px;" onclick="w3_close()"><img src="./images/logo.png" alt="Perla Mayorga Boxing Club"></a>
                 <div class="w3-right pm-hide-small">
-                    <a href="#about" class="w3-bar-item w3-button"><i class="fas fa-dumbbell"></i> ESCUELA</a>
-                    <a href="#team" class="w3-bar-item w3-button"><i class="fas fa-users"></i> EQUIPO</a>
-                    <a href="#work" class="w3-bar-item w3-button"><i class="fas fa-th"></i> CLASES</a>
-                    <a href="#pricing" class="w3-bar-item w3-button"><i class="fas fa-euro-sign"></i> TARIFAS</a>
-                    <a href="#contact" class="w3-bar-item w3-button"><i class="fas fa-envelope"></i> CONTACTO</a>
+                    <a href="#about" class="w3-bar-item w3-button"><i class="fas fa-dumbbell"></i><span style="margin-left: 5px;"><strong>ESCUELA</strong></span></a>
+                    <a href="#team" class="w3-bar-item w3-button"><i class="fas fa-users"></i><span style="margin-left: 5px;"><strong>EQUIPO</strong></span></a>
+                    <a href="#work" class="w3-bar-item w3-button"><i class="fas fa-th"></i><span style="margin-left: 5px;"><strong>CLASES</strong></span></a>
+                    <a href="#pricing" class="w3-bar-item w3-button"><i class="fas fa-euro-sign"></i><span style="margin-left: 5px;"><strong>TARIFAS</strong></span></a>
+                    <a href="#contact" class="w3-bar-item w3-button"><i class="fas fa-envelope"></i><span style="margin-left: 5px;"><strong>CONTACTO</strong></span></a>
                 </div>
             </div>
 
-            <div class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-right w3-hide-large pm-hide-medium" style="display:none; right:0" id="mySidebar">    
-                <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-dumbbell"></i> ESCUELA</a>
-                <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-users"></i> EQUIPO</a>
-                <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-th"></i> CLASES</a>
-                <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-euro-sign"></i> TARIFAS</a>
-                <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-envelope"></i> CONTACTO</a>         
+            <div class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-right w3-hide-large pm-hide-medium" style="display:none; right:0" id="mySidebar"> 
+                <p>
+                    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-dumbbell"></i> ESCUELA</a>
+                </p>
+                <p>
+                    <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-users"></i> EQUIPO</a>
+                </p>
+                <p>
+                    <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-th"></i> CLASES</a>
+                </p>
+                <p>
+                    <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-euro-sign"></i> TARIFAS</a>
+                </p>
+                <p>
+                    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-envelope"></i> CONTACTO</a> 
+                </p>                                      
             </div>
         </div>
         
-        <!-- Navbar (sit on top) -->
-        <!--
-        <div class="w3-top" id="navbar">
-            <div class="w3-bar w3-white w3-card" id="myNavbar">
-                <a href="#home" class="w3-bar-item w3-button w3-wide">
-                    <img src="./images/logo.png" alt="Perla Mayorga Boxing Club">
-                </a>
-                -->
-                <!-- Right-sided navbar links -->
-                <!--
-                <div class="w3-right pm-hide-small pm-vertical">
-                    <a href="#about" class="w3-bar-item w3-button"><i class="fas fa-dumbbell"></i></i> ESCUELA</a>
-                    <a href="#team" class="w3-bar-item w3-button"><i class="fas fa-users"></i> EQUIPO</a>
-                    <a href="#work" class="w3-bar-item w3-button"><i class="fas fa-th"></i> CLASES</a>
-                    <a href="#pricing" class="w3-bar-item w3-button"><i class="fas fa-euro-sign"></i> TARIFAS</a>
-                    <a href="#contact" class="w3-bar-item w3-button"><i class="fas fa-envelope"></i> CONTACTO</a>
-                </div>
-                -->
-                <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-                <!--
-                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large pm-hide-medium pm-vertical" onclick="w3_open()">
-                    <i class="fas fa-align-justify"></i>
-                </a>
-            </div>
-        </div>
-        -->
-
-        <!-- Sidebar on small screens when clicking the menu icon -->
-        <!--
-        <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-            <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16 w3-display-container">Menu 
-                <span class="w3-button w3-display-right"><i class="far fa-times-circle"></i></span>
-            </a>
-            <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">INICIO</a>      
-            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ESCUELA</a>
-            <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">EQUIPO</a>
-            <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">CLASES</a>
-            <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">TARIFAS</a>
-            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACTO</a>            
-        </nav>
-        -->
-
         <header class="w3-display-container w3-grayscale-min pm-header" id="home">
 
             <div class="pm-slider">
@@ -103,11 +71,12 @@
                             </p>
 
                             <p>
-                                <a href="#about" class="w3-button w3-white w3-padding-large w3-medium w3-margin-top w3-opacity w3-hover-opacity-off w3-hide-small">Conócenos</a>
-                                <a href="#about" class="w3-button w3-white w3-padding-large w3-small w3-margin-top w3-opacity w3-hover-opacity-off w3-hide-large w3-hide-medium">Conócenos</a>
+                                <a href="#about" class="w3-button w3-white w3-opacity-min w3-padding-large w3-medium w3-margin-top w3-hide-small"><strong>Conócenos</strong></a>
+                                <a href="#about" class="w3-button w3-white w3-opacity-min w3-padding-large w3-small w3-margin-top w3-hide-large w3-hide-medium"><strong>Conócenos</strong></a>
                             </p>
                         </div>
                         <div class="w3-text-dark-grey w3-large">
+                            1
                             <a href="https://www.facebook.com/perla.mayorga.9484" target="_blank"><i class="fab fa-facebook w3-hover-opacity"></i></a> 
                             <a href="https://www.instagram.com/perlamayorgaboxing" target="_blank"><i class="fab fa-instagram w3-hover-opacity"></i></a>
                             <a href="https://twitter.com/PerlaBoxingClub" target="_blank"><i class="fab fa-twitter w3-hover-opacity"></i></a>
@@ -132,16 +101,17 @@
                             </p>
 
                             <p>
-                                <a href="#about" class="w3-button w3-white w3-padding-large w3-medium w3-margin-top w3-opacity w3-hover-opacity-off w3-hide-small">Conócenos</a>
-                                <a href="#about" class="w3-button w3-white w3-padding-large w3-small w3-margin-top w3-opacity w3-hover-opacity-off w3-hide-large w3-hide-medium">Conócenos</a>
+                                <a href="#about" class="w3-button w3-white w3-opacity-min w3-padding-large w3-medium w3-margin-top w3-hide-small"><strong>Conócenos</strong></a>
+                                <a href="#about" class="w3-button w3-white w3-opacity-min w3-padding-large w3-small w3-margin-top w3-hide-large w3-hide-medium"><strong>Conócenos</strong></a>
                             </p>
                         </div>
                         <div class="w3-text-dark-grey w3-large">
-                                <a href="https://www.facebook.com/perla.mayorga.9484" target="_blank"><i class="fab fa-facebook w3-hover-opacity"></i></a> 
-                                <a href="https://www.instagram.com/perlamayorgaboxing" target="_blank"><i class="fab fa-instagram w3-hover-opacity"></i></a>
-                                <a href="https://twitter.com/PerlaBoxingClub" target="_blank"><i class="fab fa-twitter w3-hover-opacity"></i></a>
-                                <a href="https://www.youtube.com/channel/UC84FFyDvy7jvCQPrj-VATWw" target="_blank"><i class="fab fa-youtube w3-hover-opacity"></i></a>
-                                <a href="https://api.whatsapp.com/send?phone=34644834571"><i class="fab fa-whatsapp w3-hover-opacity"></i></a>
+                            2
+                            <a href="https://www.facebook.com/perla.mayorga.9484" target="_blank"><i class="fab fa-facebook w3-hover-opacity"></i></a> 
+                            <a href="https://www.instagram.com/perlamayorgaboxing" target="_blank"><i class="fab fa-instagram w3-hover-opacity"></i></a>
+                            <a href="https://twitter.com/PerlaBoxingClub" target="_blank"><i class="fab fa-twitter w3-hover-opacity"></i></a>
+                            <a href="https://www.youtube.com/channel/UC84FFyDvy7jvCQPrj-VATWw" target="_blank"><i class="fab fa-youtube w3-hover-opacity"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=34644834571"><i class="fab fa-whatsapp w3-hover-opacity"></i></a>
                         </div> 
                     </div>                     
                 </div>
@@ -161,11 +131,12 @@
                             </p>    
 
                             <p>
-                                <a href="#about" class="w3-button w3-white w3-padding-large w3-medium w3-margin-top w3-opacity w3-hover-opacity-off w3-hide-small">Conócenos</a>
-                                <a href="#about" class="w3-button w3-white w3-padding-large w3-small w3-margin-top w3-opacity w3-hover-opacity-off w3-hide-large w3-hide-medium">Conócenos</a>
+                                <a href="#about" class="w3-button w3-white w3-opacity-min w3-padding-large w3-medium w3-margin-top w3-hide-small"><strong>Conócenos</strong></a>
+                                <a href="#about" class="w3-button w3-white w3-opacity-min w3-padding-large w3-small w3-margin-top w3-hide-large w3-hide-medium"><strong>Conócenos</strong></a>
                             </p>
                         </div>
                         <div class="w3-text-dark-grey w3-large">
+                            3
                                 <a href="https://www.facebook.com/perla.mayorga.9484" target="_blank"><i class="fab fa-facebook w3-hover-opacity"></i></a> 
                                 <a href="https://www.instagram.com/perlamayorgaboxing" target="_blank"><i class="fab fa-instagram w3-hover-opacity"></i></a>
                                 <a href="https://twitter.com/PerlaBoxingClub" target="_blank"><i class="fab fa-twitter w3-hover-opacity"></i></a>
@@ -190,11 +161,12 @@
                             </p>
 
                             <p>
-                                <a href="#about" class="w3-button w3-white w3-padding-large w3-medium w3-margin-top w3-opacity w3-hover-opacity-off w3-hide-small">Conócenos</a>
-                                <a href="#about" class="w3-button w3-white w3-padding-large w3-small w3-margin-top w3-opacity w3-hover-opacity-off w3-hide-large w3-hide-medium">Conócenos</a>
+                                <a href="#about" class="w3-button w3-white w3-opacity-min w3-padding-large w3-medium w3-margin-top w3-hide-small"><strong>Conócenos</strong></a>
+                                <a href="#about" class="w3-button w3-white w3-opacity-min w3-padding-large w3-small w3-margin-top w3-hide-large w3-hide-medium"><strong>Conócenos</strong></a>
                             </p>
                         </div>
                         <div class="w3-text-dark-grey w3-large">
+                            4
                                 <a href="https://www.facebook.com/perla.mayorga.9484" target="_blank"><i class="fab fa-facebook w3-hover-opacity"></i></a> 
                                 <a href="https://www.instagram.com/perlamayorgaboxing" target="_blank"><i class="fab fa-instagram w3-hover-opacity"></i></a>
                                 <a href="https://twitter.com/PerlaBoxingClub" target="_blank"><i class="fab fa-twitter w3-hover-opacity"></i></a>
@@ -219,11 +191,12 @@
                             </p>
 
                             <p>
-                                <a href="#about" class="w3-button w3-white w3-padding-large w3-medium w3-margin-top w3-opacity w3-hover-opacity-off w3-hide-small">Conócenos</a>
-                                <a href="#about" class="w3-button w3-white w3-padding-large w3-small w3-margin-top w3-opacity w3-hover-opacity-off w3-hide-large w3-hide-medium">Conócenos</a>
+                                <a href="#about" class="w3-button w3-white w3-opacity-min w3-padding-large w3-medium w3-margin-top w3-hide-small"><strog>Conócenos</strog></a>
+                                <a href="#about" class="w3-button w3-white w3-opacity-min w3-padding-large w3-small w3-margin-top w3-hide-large w3-hide-medium"><strong>Conócenosz</strong></a>
                             </p>
                         </div>
                         <div class="w3-text-dark-grey w3-large">
+                            5
                                 <a href="https://www.facebook.com/perla.mayorga.9484" target="_blank"><i class="fab fa-facebook w3-hover-opacity"></i></a> 
                                 <a href="https://www.instagram.com/perlamayorgaboxing" target="_blank"><i class="fab fa-instagram w3-hover-opacity"></i></a>
                                 <a href="https://twitter.com/PerlaBoxingClub" target="_blank"><i class="fab fa-twitter w3-hover-opacity"></i></a>
@@ -248,11 +221,12 @@
                             </p>
 
                             <p>
-                                <a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off w3-hide-small">Conócenos</a>
-                                <a href="#about" class="w3-button w3-white w3-padding-large w3-small w3-margin-top w3-opacity w3-hover-opacity-off w3-hide-large w3-hide-medium">Conócenos</a>
+                                <a href="#about" class="w3-button w3-white w3-opacity-min w3-padding-large w3-medium w3-margin-top w3-hide-small"><strong>Conócenos</strong></a>
+                                <a href="#about" class="w3-button w3-white w3-opacity-min w3-padding-large w3-small w3-margin-top w3-hide-large w3-hide-medium"><strong>Conócenos</strong></a>
                             </p>
                         </div>
                         <div class="w3-text-dark-grey w3-large">
+                            6
                                 <a href="https://www.facebook.com/perla.mayorga.9484" target="_blank"><i class="fab fa-facebook w3-hover-opacity"></i></a> 
                                 <a href="https://www.instagram.com/perlamayorgaboxing" target="_blank"><i class="fab fa-instagram w3-hover-opacity"></i></a>
                                 <a href="https://twitter.com/PerlaBoxingClub" target="_blank"><i class="fab fa-twitter w3-hover-opacity"></i></a>
@@ -282,55 +256,59 @@
         </header>
 
         <!-- School Section -->
-        <div class="w3-container" style="padding:128px 16px" id="about">
-            <h2 class="w3-center"><strong>ESCUELA</strong></h2>
-            <p class="w3-center w3-large">Nuestros Valores</p>
-            <div class="w3-row-padding w3-center" style="margin-top:64px">
-                <div class="w3-third">
-                    <i class="fas fa-heart w3-margin-bottom w3-jumbo"></i>
-                    <p class="w3-large"><b class="w3-xlarge">P</b>asión</p>
-                    <p>Sentimiento de absoluta satisfacción que produce algo en nosotros. Emoción intensa de querer repetirlo siempre, es sentir un grado indescriptible de felicidad al hacerlo.</p>
+        <div class="w3-container" style="padding:128px 16px;" id="about">
+            <div class="w3-content">
+                <h2 class="w3-center"><strong>ESCUELA</strong></h2>
+                <p class="w3-center w3-large">Nuestros Valores</p>
+                <div class="w3-row-padding w3-center" style="margin-top:64px">
+                    <div class="w3-third">
+                        <i class="fas fa-heart w3-margin-bottom w3-jumbo"></i>
+                        <p class="w3-large"><b class="w3-xlarge">P</b>asión</p>
+                        <p>Sentimiento de absoluta satisfacción que produce algo en nosotros. Emoción intensa de querer repetirlo siempre, es sentir un grado indescriptible de felicidad al hacerlo.</p>
+                    </div>
+                    <div class="w3-third">                    
+                        <i class="fas fa-users w3-margin-bottom w3-jumbo w3-center"></i>
+                        <p class="w3-large"><b class="w3-xlarge">E</b>quipo</p>
+                        <p>Los mejores logros requieren la composición de estructuras más complejas y completas que las unipersonales. El componente sinérgico del trabajo en equipo hace que unir fuerzas con los demás siempre valga la pena. </p>
+                    </div>
+                    <div class="w3-third">
+                        <i class="fas fa-hands w3-margin-bottom w3-jumbo"></i>
+                        <p class="w3-large"><b class="w3-xlarge">R</b>espeto</p>
+                        <p>Es el valor de aceptar a otros tal y como son, con educación y cordura sin importar quienes sean. Respetar no es querer imponer nuestras ideas, es mantener la mente abierta para aprender y enseñar.</p>
+                    </div>
                 </div>
-                <div class="w3-third">                    
-                    <i class="fas fa-users w3-margin-bottom w3-jumbo w3-center"></i>
-                    <p class="w3-large"><b class="w3-xlarge">E</b>quipo</p>
-                    <p>Los mejores logros requieren la composición de estructuras más complejas y completas que las unipersonales. El componente sinérgico del trabajo en equipo hace que unir fuerzas con los demás siempre valga la pena. </p>
-                </div>
-                <div class="w3-third">
-                    <i class="fas fa-hands w3-margin-bottom w3-jumbo"></i>
-                    <p class="w3-large"><b class="w3-xlarge">R</b>espeto</p>
-                    <p>Es el valor de aceptar a otros tal y como son, con educación y cordura sin importar quienes sean. Respetar no es querer imponer nuestras ideas, es mantener la mente abierta para aprender y enseñar.</p>
-                </div>
-            </div>
-            <div class="w3-row-padding w3-center" style="margin-top:32px">
-                <div class="w3-half">
-                    <i class="fas fa-thumbs-up w3-margin-bottom w3-jumbo"></i>
-                    <p class="w3-large"><b class="w3-xlarge">L</b>ealtad</p>
-                    <p>Somos leales con aquellas personas y valores que de una forma u otra son importantes para nosotros y han aportado valor positivo a nuestros días. Nos permite crecer y dar paso a la confianza y la sinceridad, al verdadero afecto y a la destitución de algún interés manipulable.</p>
-                </div>
-                <div class="w3-half">
-                    <i class="fas fa-infinity w3-margin-bottom w3-jumbo"></i>
-                    <p class="w3-large"><b class="w3-xlarge">A</b>mbición</p>
-                    <p>Buscamos el desarrollo y el crecimiento personal, la creación y cumplimiento de metas. Ampliando nuestra zona de confort y ayudando a otros en su camino, dando una mano a quien lo necesite.</p>
+                <div class="w3-row-padding w3-center" style="margin-top:32px">
+                    <div class="w3-half">
+                        <i class="fas fa-thumbs-up w3-margin-bottom w3-jumbo"></i>
+                        <p class="w3-large"><b class="w3-xlarge">L</b>ealtad</p>
+                        <p>Somos leales con aquellas personas y valores que de una forma u otra son importantes para nosotros y han aportado valor positivo a nuestros días. Nos permite crecer y dar paso a la confianza y la sinceridad, al verdadero afecto y a la destitución de algún interés manipulable.</p>
+                    </div>
+                    <div class="w3-half">
+                        <i class="fas fa-infinity w3-margin-bottom w3-jumbo"></i>
+                        <p class="w3-large"><b class="w3-xlarge">A</b>mbición</p>
+                        <p>Buscamos el desarrollo y el crecimiento personal, la creación y cumplimiento de metas. Ampliando nuestra zona de confort y ayudando a otros en su camino, dando una mano a quien lo necesite.</p>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- Colaboration Section -->
         <div class="w3-container w3-light-grey" style="padding:128px 16px">
-            <h2 class="w3-center"><strong>COLABORACIÓN</strong></h2>  
-            <p class="w3-center w3-large">
-                <i class="fas fa-hands-helping"></i> Ayuntamiento de Pozuelo del Rey.</i>
-            </p>          
-            <div class="w3-row-padding">
-                <div class="w3-col m6">              
-                    <p>Gracias a la colaboración con el <a href="http://www.pozuelodelrey.es" target="_blank"> Ayto. de Pozuelo del Rey</i></a>, <br/> tenemos un espacio multifuncional donde podrás practicar deportes de contacto</p>
-                    <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> Nuetras Clases</a></p>
-                </div>
-                <div class="w3-col m6" style="position: relative">
-                    <img class="w3-image w3-round-large w3-greyscale" src="./images/colaboracion.jpg" alt="Colaboración" width="700" height="394">
-                    <div class="w3-display-bottomleft w3-large pm-colab">
-                        <a href="http://www.pozuelodelrey.es" target="_blank"></a>  
+            <div class="w3-content">
+                <h2 class="w3-center"><strong>COLABORACIÓN</strong></h2>  
+                <p class="w3-center w3-large">
+                    <i class="fas fa-hands-helping"></i> Ayuntamiento de Pozuelo del Rey.</i>
+                </p>          
+                <div class="w3-row-padding">
+                    <div class="w3-col m6">              
+                        <p>Gracias a la colaboración con el <a href="http://www.pozuelodelrey.es" target="_blank"> Ayto. de Pozuelo del Rey</i></a>, <br/> tenemos un espacio multifuncional donde podrás practicar deportes de contacto</p>
+                        <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> Nuetras Clases</a></p>
+                    </div>
+                    <div class="w3-col m6" style="position: relative">
+                        <img class="w3-image w3-round-large" src="./images/colaboracion.jpg" alt="Colaboración" width="700" height="394">
+                        <div class="w3-display-bottomleft w3-large pm-colab">
+                            <a href="http://www.pozuelodelrey.es" target="_blank"></a>  
+                        </div>
                     </div>
                 </div>
             </div>
@@ -338,343 +316,295 @@
 
         <!-- Team Section -->
         <div class="w3-container" style="padding:128px 16px" id="team">
-            <h2 class="w3-center"><strong>EQUIPO</strong></h2>
-            <p class="w3-center w3-large">Equipo de entrenadores altamente profesionales y cualificados.</p>
+            <div class="w3-content">
+                <h2 class="w3-center"><strong>EQUIPO</strong></h2>
+                <p class="w3-center w3-large">Equipo de entrenadores altamente profesionales y cualificados.</p>
 
-            <div class="w3-row-padding pm-flex" style="margin-top:64px">
-                <div class="w3-col s12 m6 l4 w3-margin-bottom pm-offset-m3 pm-offset-l4">
-                    <div class="w3-card">
-                        <img src="./images/maestros/jose_manuel_perla.jpg" alt="Perla" style="width:100%">
-                        <div class="w3-container">
-                            <div>
-                                <h3>José Manuel <br/> Mayorga 'Perla'</h3>
+                <div class="w3-row-padding" style="margin-top:64px">
+                    <div class="w3-col s12 m6 w3-margin-bottom pm-offset-m3">
+                        <div class="w3-card">
+                            <img src="./images/maestros/jose_manuel_perla.jpg" alt="Perla" style="width:100%">
+                            <div class="w3-container">
+                                <div>
+                                    <h3>José Manuel <br/> Mayorga 'Perla'</h3>
+                                </div>
+                                <div>
+                                    <p class="w3-opacity">Fundador <br/> Escuela</p>
+                                </div>
+                                <div>
+                                    <p>El alma de la escuela</p>
+                                    <p>En sus alumnos perdurarán las enseñanzas recibidas.</p>
+                                </div>
                             </div>
-                            <div>
-                                <p class="w3-opacity">Fundador <br/> Escuela</p>
-                            </div>
-                            <div>
-                                <p>El alma de la escuela</p>
-                                <p>En sus alumnos perdurarán las enseñanzas recibidas.</p>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="w3-row-padding" style="margin-top:64px">        
+                    <div class="w3-col s12 m6 w3-margin-bottom">
+                        <div class="w3-card pm-minheight">
+                            <img src="./images/maestros/vanesa_cabellero.jpg" alt="Vanesa Caballero" style="width:100%">
+                            <div class="w3-container">
+                                <div>
+                                    <h3>Vanesa <br/> Caballero</h3>
+                                </div>
+                                <div>
+                                    <p class="w3-opacity">Entrenadora <br/> Boxeo</p>
+                                </div> 
+                                <div class="pm-cvmaestros">
+                                    <p>Alumna de 'Perla' desde sus inicios.</p>
+                                    <p>3 veces ganadora de campeonatos de la Comunidad de Madrid.</p> 
+                                    <p>27 peleas Amateur, subcampeona de España Amateur.</p>
+                                    <p>8 peleas Profesionales, aspirante al Campeonato de España.</p>
+                                    <p>Primera española en ganar en UK.</p>                                    
+                                </div>
+                                <div class="w3-row pm-cvmaestros-insta">
+                                    <p class="w3-btn w3-center w3-block w3-blue-grey">
+                                        <a href="https://www.instagram.com/vanesa_caballero_boxeo" target="_blank">
+                                            <span class="w3-xlarge"><i class="fab fa-instagram w3-hover-opacity"></i></span>
+                                        </a>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div> 
+                    <div class="w3-col s12 m6 w3-margin-bottom">
+                        <div class="w3-card pm-minheight">
+                            <img src="./images/maestros/joaquin_dominguez.jpg" alt="Joaquín Dominguez" style="width:100%">
+                            <div class="w3-container">
+                                <div>
+                                    <h3>Joaquín <br/> Dominguez</h3>
+                                </div>
+                                <div>
+                                    <p class="w3-opacity">Entrenador <br/> Kick Boxing / K1</p>
+                                </div>
+                                <div class="pm-cvmaestros">
+                                    <p>Peleador en activo desde 2005.</p>
+                                    <p>Lleva practicando este su deporte en una de las mejores escuelas de Madrid.</p>
+                                    <p>Leal, comprometido y con una capacidad de sacrificio innata.</p>
+                                    <p>Apasionado de la enseñanza y fiel creyente en que el talento crece cuando se comparte.</p>                                    
+                                </div>
+                                <div class="w3-row pm-cvmaestros-insta">
+                                    <p class="w3-btn w3-center w3-block w3-blue-grey">
+                                        <a href="https://www.instagram.com/maderomuaythay" target="_blank">
+                                            <span class="w3-xlarge"><i class="fab fa-instagram w3-hover-opacity"></i></span>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--
+                    <div class="w3-col s12 m6 l4 w3-margin-bottom pm-offset-m3">
+                        <div class="w3-card pm-minheight">
+                            <img src="./images/maestros/alvaro.jpg" alt="Álvaro" style="width:100%">
+                            <div class="w3-container">
+                                <div>
+                                    <h3>Álvaro <br/> López</h3>
+                                </div>
+                                <div>
+                                    <p class="w3-opacity">Entrenador <br/> Defensa Personal</p>
+                                </div>
+                                <div class="pm-cvmaestros">
+                                    <p>Maestro cinturón negro de Kajukenbo.</p>
+                                    <p>Imparte clases desde hace más de 10 años.</p>
+                                    <p>Sus valores son el respeto, el esfuerzo y dedicación para aprender y enseñar.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+
+                </div>
             </div>
-
-            <div class="w3-row-padding pm-flex" style="margin-top:64px">        
-                <div class="w3-col s12 m6 l4 w3-margin-bottom">
-                    <div class="w3-card pm-minheight">
-                        <img src="./images/maestros/vanesa_cabellero.jpg" alt="Vanesa Cballero" style="width:100%">
-                        <div class="w3-container">
-                            <div>
-                                <h3>Vanesa <br/> Caballero</h3>
-                            </div>
-                            <div>
-                                <p class="w3-opacity">Entrenadora <br/> Boxeo</p>
-                            </div> 
-                            <div class="pm-cvmaestros">
-                                <p>Alumna de 'Perla' desde sus inicios.</p>
-                                <p>3 veces ganadora de campeonatos de la Comunidad de Madrid.</p> 
-                                <p>27 peleas Amateur, subcampeona de España Amateur.</p>
-                                <p>8 peleas Profesionales, aspirante al Campeonato de España.</p>
-                                <p>Primera española en ganar en UK.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="w3-col s12 m6 l4 w3-margin-bottom">
-                    <div class="w3-card pm-minheight">
-                        <img src="./images/maestros/joaquin_dominguez.jpg" alt="Joaquín Dominguez" style="width:100%">
-                        <div class="w3-container">
-                            <div>
-                                <h3>Joaquín <br/> Dominguez</h3>
-                            </div>
-                            <div>
-                                <p class="w3-opacity">Entrenador <br/> Kick Boxing / K1</p>
-                            </div>
-                            <div class="pm-cvmaestros">
-                                <p>Peleador en activo desde 2005.</p>
-                                <p>Lleva practicando este su deporte en una de las mejores escuelas de Madrid.</p>
-                                <p>Leal, comprometido y con una capacidad de sacrificio innata.</p>
-                                <p>Apasionado de la enseñanza y fiel creyente en que el talento crece cuando se comparte. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-col s12 m6 l4 w3-margin-bottom pm-offset-m3">
-                    <div class="w3-card pm-minheight">
-                        <img src="./images/maestros/alvaro.jpg" alt="Álvaro" style="width:100%">
-                        <div class="w3-container">
-                            <div>
-                                <h3>Álvaro <br/> López</h3>
-                            </div>
-                            <div>
-                                <p class="w3-opacity">Entrenador <br/> Defensa Personal</p>
-                            </div>
-                            <div class="pm-cvmaestros">
-                                <p>Maestro cinturón negro de Kajukenbo.</p>
-                                <p>Imparte clases desde hace más de 10 años.</p>
-                                <p>Sus valores son el respeto, el esfuerzo y dedicación para aprender y enseñar.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <!--
-            <div class="w3-row-padding pm-flex" style="margin-top:64px">
-                <div class="w3-col m3"></div>
-                <div class="w3-col s12 m6 l4 w3-margin-bottom">
-                    <div class="w3-card pm-minheight">
-                        <img src="./images/maestros/alvaro.jpg" alt="Álvaro" style="width:100%">
-                        <div class="w3-container">
-                            <div>
-                                <h3>Álvaro <br/> López</h3>
-                            </div>
-                            <div>
-                                <p class="w3-opacity">Entrenador <br/> Defensa Personal</p>
-                            </div>
-                            <div class="pm-cvmaestros">
-                                <p>Maestro cinturón negro de Kajukenbo.</p>
-                                <p>Imparte clases desde hace más de 10 años.</p>
-                                <p>Sus valores son el respeto, el esfuerzo y dedicación para aprender y enseñar.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="w3-col m3"></div>
-                -->
-
-                <!--
-                <div class="w3-col w3-half w3-margin-bottom">
-                    <div class="w3-card pm-minheight">
-                        <img src="./images/maestros/israel_adrados.jpg" alt="Israel Adrados" style="width:100%">
-                        <div class="w3-container">
-                            <div>
-                                <h3>Israel <br/> Adrados</h3>
-                            </div>
-                            <div>
-                                <p class="w3-opacity">Entrenador <br/> MMA</p>
-                            </div>
-                            <div>
-                                <p>Entrenador de MMA, JIU-JITSU, Judo</p>
-                                <p>Maestro nacional de nivel IV MMA</p>
-                                <p>Maestro nacional de nivel III Grappling</p>
-                                <p>Cinturón negro en Sando Combat, cinturón negro 3º DAN de Judo, cinturón negro Brazilian Jiu Jitsu</p>
-                                <p>Comprometido con el deporte, las artes marciales, el espíritu de sacrificio y de lucha.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-                -->    
-        
-            <!--
-            </div> 
-            -->
-
         </div>
            
 
         <!-- Promo Section "Statistics" -->
-        <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
-            <div class="w3-quarter">
-                <span class="w3-xxlarge">+19</span>
-                <br>Años Experiencia
-            </div>
-            <div class="w3-quarter">
-                <span class="w3-xxlarge">+93</span>
-                <br>Torneos Disputados
-            </div>
-            <div class="w3-quarter">
-                <span class="w3-xxlarge">+67</span>
-                <br>Compañeros que forman la escuela
-            </div>
-            <div class="w3-quarter">
-                <span class="w3-xxlarge">+570</span>
-                <br>Horas de clases al año
+        <div class="w3-container w3-center w3-dark-grey w3-padding-64">
+            <div class="w3-content">
+                <div class="w3-row-padding">
+                    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+                        <span class="w3-xxlarge">+19</span>
+                        <br>Años Experiencia
+                    </div>
+                    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+                        <span class="w3-xxlarge">+93</span>
+                        <br>Torneos Disputados
+                    </div>
+                    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+                        <span class="w3-xxlarge">+67</span>
+                        <br>Compañeros que forman la escuela
+                    </div>
+                    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+                        <span class="w3-xxlarge">+570</span>
+                        <br>Horas de clases al año
+                    </div>
+                </div>
             </div>
         </div>
 
         <!-- Work Section -->
         <div class="w3-container" style="padding:128px 16px" id="work">
-            <h2 class="w3-center"><strong>HORARIOS</strong></h2>
-            <p class="w3-center w3-large">Creemos que el conocimiento sólo aumenta cuando se comparte y en nuestras clases sabemos que <b>'Tod@s aprendemos de tod@s'</b>.</p>
-            <p class="w3-center w3-large">Estos son nuestros horarios y clases.</p>
 
-            <!--
-            <div class="w3-row-padding w3-section w3-center">
-                    <div class="w3-col l3 m6">
-                    <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
-                    </div>
-                    <div class="w3-col l3 m6">
-                    <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
-                    </div>
-                    <div class="w3-col l3 m6">
-                    <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
-                    </div>
-                    <div class="w3-col l3 m6">
-                    <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
-                    </div>
-            </div>
-            
-            <div class="w3-row-padding w3-section">
-                <div class="w3-col l3 m6">
-                <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
-                </div>
-                <div class="w3-col l3 m6">
-                <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
-                </div>
-                <div class="w3-col l3 m6">
-                <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
-                </div>
-                <div class="w3-col l3 m6">
-                <img src="https://source.unsplash.com/random/300x200" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
-                </div>
-            </div>
-            -->
+            <div class="w3-content">
 
-            <div class="w3-row-padding">
-                <div class="w3-col w3-third w3-section">
-                    <div class="w3-container w3-center w3-dark-gray w3-hover-dark-gray  w3-padding-small w3-leftbar w3-border-grey">
-                        <h6 style="font-size: 13px;">BOXEO</h6>
-                    </div>
-                    <div>
-                        <img src="./images/gym-horarios/gym-01.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Boxeo">
-                    </div>
-                    <div class="pm-gymhorarios">
-                        <p>Las clases de <b>boxeo</b> están estructuradas para mejorar la potencia muscular y la resitencia cardiovascular, y convenientemente combinada con la base técnica estrablecida por nuestros profesores.</p>
-                        <p>Además de sudar y ponerte en forma aprenderás de forma práctica y divertida los fundamentos y técnicas del boxeo, haciendo ejercicios de saco, manoplas y trabajos específicos.</p>
-                        <p>Para nuestros competidores, tenemos planes de trabajo a medida, sin dejar de lado que: <b>'Tod@s aprendemos de tod@s'</b>.</p>
-                    </div>
-                    <div class="w3-center">
-                        <p style="margin: 0;">
-                            <button onclick="document.getElementById('horario-boxeo').style.display='block'" class="w3-button w3-block w3-black">
-                                <i class="far fa-clock"></i> Horarios<br/>Boxeo
-                            </button>
-                        </p>
-                    </div>
-                </div>
-                <div class="w3-col w3-third w3-section">
-                    <div class="w3-container w3-center w3-dark-gray w3-hover-dark-gray w3-padding-small w3-leftbar w3-border-grey">
-                        <h6 style="font-size: 13px;">K1 / BOXEO</h6>
-                    </div>
-                    <div>
-                        <img src="./images/gym-horarios/gym-01.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="K1 / Boxeo">
-                    </div>
-                    <div class="pm-gymhorarios">
-                        <p>Las clases de <b>K1</b>, tod@s entrenamos al mismo nivel, tanto profesionales, amateur, como no competidores.</p>
-                        <p><b>'Tod@s aprendemos de tod@s'</b> ajustandonos a las necesidades de cada uno.</p>
-                        <p>Aquí aprendemos diferentes técnicas de mano y pierna, usando también la rodilla para desarrollar los fundamentos y potenciar las habilidades de cada uno.</p>
-                        <p>Mezclamos la competición con entrenos dinámicos para encontrar el equilibrio que nos permita alcanzar una avanzada condición física, sin dejar de divertinos y disfrutar al máximo este deporte.</p>
-                    </div>
-                    <div class="w3-center">
-                        <p style="margin: 0;">
-                            <button onclick="document.getElementById('horario-kick').style.display='block'" class="w3-button w3-block w3-black">
-                                <i class="far fa-clock"></i> Horarios<br/>K1 / Boxeo
-                            </button>
-                        </p>
-                    </div>
-                </div>              
-                <div class="w3-col w3-third w3-section">
-                    <div class="w3-container w3-center w3-dark-gray w3-hover-dark-gray w3-padding-small w3-leftbar w3-border-grey">
-                        <h6 style="font-size: 13px;">DEFENSA PERSONAL</h6>
-                    </div>
-                    <div>
-                        <img src="./images/gym-horarios/gym-01.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Defensa Personal">
-                    </div>
-                    <div class="pm-gymhorarios">
-                        <p>Las clases de <b>defensa personal</b> nos hace aumentar la seguridad en nosotros mismos.</p>
-                        <p>Lo hace de manera física como mental en métodos de auto defenta.</p>
-                        <p>Te superas cada día, donde los valores como el respeto, humildad y compañerismo los tendrás en el día a día.</p>
-                        <p>Verás un gran progreso muy satisfactorio, porque seguimos con la idea de que <b>'Tod@s aprendemos de tod@s'</b>.</p>
-                    </div>
-                    <div class="w3-center">
-                        <p style="margin: 0;">
-                            <button onclick="document.getElementById('horario-defensa').style.display='block'" class="w3-button w3-block w3-black">
-                                <i class="far fa-clock"></i> Horarios<br/>Defensa Personal
-                            </button>
-                        </p>
-                    </div>
-                </div>
-            </div>
+                <h2 class="w3-center"><strong>HORARIOS</strong></h2>
+                <p class="w3-center w3-large">Creemos que el conocimiento sólo aumenta cuando se comparte y en nuestras clases sabemos que <b>'Tod@s aprendemos de tod@s'</b>.</p>
+                <p class="w3-center w3-large">Estos son nuestros horarios y clases.</p>
 
-            <div class="w3-row-padding">
+                <div class="w3-row-padding">
+                    <div class="w3-col s12 m6 l4 w3-section">
+                        <div class="w3-card">
+                            <div class="w3-container w3-center w3-dark-gray w3-hover-dark-gray  w3-padding-small w3-leftbar w3-border-grey">
+                                <h6 style="font-size: 13px;">BOXEO</h6>
+                            </div>
+                            <div style="cursor: pointer;">
+                                <img src="./images/gym-horarios/gym-01.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Boxeo">
+                            </div>
+                            <div class="w3-container pm-gymhorarios">
+                                <p>Las clases de <b>boxeo</b> están estructuradas para mejorar la potencia muscular y la resitencia cardiovascular, y convenientemente combinada con la base técnica estrablecida por nuestros profesores.</p>
+                                <p>Además de sudar y ponerte en forma aprenderás de forma práctica y divertida los fundamentos y técnicas del boxeo, haciendo ejercicios de saco, manoplas y trabajos específicos.</p>
+                                <p>Para nuestros competidores, tenemos planes de trabajo a medida, sin dejar de lado que: <b>'Tod@s aprendemos de tod@s'</b>.</p>
+                            </div>
+                            <div class="w3-center w3-black">
+                                <p style="margin: 0;">
+                                    <button onclick="document.getElementById('horario-boxeo').style.display='block'" class="w3-button w3-block">
+                                        <i class="far fa-clock"></i> Horarios<br/>Boxeo
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-col s12 m6 l4 w3-section">
+                        <div class="w3-card">
+                            <div class="w3-container w3-center w3-dark-gray w3-hover-dark-gray w3-padding-small w3-leftbar w3-border-grey">
+                                <h6 style="font-size: 13px;">K1 / BOXEO</h6>
+                            </div>
+                            <div style="cursor: pointer;">
+                                <img src="./images/gym-horarios/gym-01.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="K1 / Boxeo">
+                            </div>
+                            <div class="w3-container pm-gymhorarios">
+                                <p>Las clases de <b>K1</b>, tod@s entrenamos al mismo nivel, tanto profesionales, amateur, como no competidores.</p>
+                                <p><b>'Tod@s aprendemos de tod@s'</b> ajustandonos a las necesidades de cada uno.</p>
+                                <p>Aquí aprendemos diferentes técnicas de mano y pierna, usando también la rodilla para desarrollar los fundamentos y potenciar las habilidades de cada uno.</p>
+                                <p>Mezclamos la competición con entrenos dinámicos para encontrar el equilibrio que nos permita alcanzar una avanzada condición física, sin dejar de divertinos y disfrutar al máximo este deporte.</p>
+                            </div>
+                            <div class="w3-center w3-black">
+                                <p style="margin: 0;">
+                                    <button onclick="document.getElementById('horario-kick').style.display='block'" class="w3-button w3-block">
+                                        <i class="far fa-clock"></i> Horarios<br/>K1 / Boxeo
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>      
+                    <div class="w3-col s12 m6 l4 w3-section pm-offset-m3 pm-offset-l0">
+                        <div class="w3-card">
+                            <div class="w3-container w3-center w3-dark-gray w3-hover-dark-gray w3-padding-small w3-leftbar w3-border-grey">
+                                <h6 style="font-size: 13px;">FUNCIONAL</h6>
+                            </div>
+                            <div style="cursor: pointer;">
+                                <img src="./images/gym-horarios/gym-01.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Funcional">
+                            </div>
+                            <div class="w3-container pm-gymhorarios">
+                                <p>En las clases de <b>entrenamiento funcional</b>, se entrena con un propósito y para alcanzar un objetivo.</p>
+                            </div>
+                            <div class="w3-center  w3-black">
+                                <p style="margin: 0;">
+                                    <button onclick="document.getElementById('horario-funcional').style.display='block'" class="w3-button w3-block">
+                                        <i class="far fa-clock"></i> Horarios<br/>Funcional
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>        
+ 
+                </div>
+
                 <!--
-                <div class="w3-third w3-section">
-                    <div class="w3-container w3-center w3-dark-gray w3-hover-dark-gray w3-padding-small w3-leftbar w3-border-grey">
-                        <h6 style="font-size: 14px;">MMA</h6>
+                <div class="w3-row-padding">
+                    
+                    <div class="w3-third w3-section">
+                        <div class="w3-container w3-center w3-dark-gray w3-hover-dark-gray w3-padding-small w3-leftbar w3-border-grey">
+                            <h6 style="font-size: 14px;">MMA</h6>
+                        </div>
+                        <div>
+                            <img src="./images/gym-horarios/gym-01.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="MMA">
+                        </div>
+                        <div>
+                            <p>Las clases de <b>MMA</b> ponemos en práctica diferentes modalidades de deportes de contacto o Artes Marciales Mixtas.</p>
+                            <p>Como el boxeo, Muay Thai, Jui Jitsu, técnicas de suelo, entre otras, de una manera dinámica para estar en un estado físico óptimo.</p>
+                            <p>Con la misma premisa: <b>'Tod@s aprendemos de tod@s'</b>, ya seas competidor o sólo quieres aprender las bases de este deporte.</p>
+                        </div>
+                        <div class="w3-center">
+                            <p>
+                                <button onclick="document.getElementById('horario-mma').style.display='block'" class="w3-button w3-block w3-black">
+                                    <i class="far fa-clock"></i> Horarios
+                                </button>
+                            </p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="./images/gym-horarios/gym-01.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="MMA">
-                    </div>
-                    <div>
-                        <p>Las clases de <b>MMA</b> ponemos en práctica diferentes modalidades de deportes de contacto o Artes Marciales Mixtas.</p>
-                        <p>Como el boxeo, Muay Thai, Jui Jitsu, técnicas de suelo, entre otras, de una manera dinámica para estar en un estado físico óptimo.</p>
-                        <p>Con la misma premisa: <b>'Tod@s aprendemos de tod@s'</b>, ya seas competidor o sólo quieres aprender las bases de este deporte.</p>
-                    </div>
-                    <div class="w3-center">
-                        <p>
-                            <button onclick="document.getElementById('horario-mma').style.display='block'" class="w3-button w3-block w3-black">
-                                <i class="far fa-clock"></i> Horarios
-                            </button>
-                        </p>
-                    </div>
+                    
+                    <div class="w3-col w3-half w3-section">
+                        <div class="w3-container w3-center w3-dark-gray w3-hover-dark-gray w3-padding-small w3-leftbar w3-border-grey">
+                            <h6 style="font-size: 13px;">K1 INFANTIL</h6>
+                        </div>
+                        <div>
+                            <img src="./images/gym-horarios/gym-01.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="K1 Infantil">
+                        </div>
+                        <div class="pm-gymhorarios">
+                            <p>En nuestras clases de <b>K1 infantil</b>, estamos ayudando a alumnos de todas las edades a alcanzar una experiencia exitosa y positiva.</p>
+                            <p>Nuestro programa de K1 para niños incluye clases específicas por edad, que están diseñadas para aportar a los alumnos modelos positivos, disciplina y respeto.</p>
+                            <p>Aumenta la coordinación entre las diferentes partes del cuerpo, desarrolla su sutoconfianza, el compañerísmo y su capacidad de concentración.</p>
+                            <p><b>Las clases de K1 infantil son clases sin contacto.</b></p>
+                        </div>
+                        <div class="w3-center">
+                            <p style="margin: 0;">
+                                <button onclick="document.getElementById('horario-kickinfantil').style.display='block'" class="w3-button w3-block w3-black">
+                                    <i class="far fa-clock"></i> Horarios<br/>K1 Infantil
+                                </button>
+                            </p>
+                        </div>
+                    </div>    
+
+                    <div class="w3-col w3-half w3-section">
+                        <div class="w3-container w3-center w3-dark-gray w3-hover-dark-gray w3-padding-small w3-leftbar w3-border-grey">
+                            <h6 style="font-size: 13px;">DEFENSA PERSONAL</h6>
+                        </div>
+                        <div>
+                            <img src="./images/gym-horarios/gym-01.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Defensa Personal">
+                        </div>
+                        <div class="pm-gymhorarios">
+                            <p>Las clases de <b>defensa personal</b> nos hace aumentar la seguridad en nosotros mismos.</p>
+                            <p>Lo hace de manera física como mental en métodos de auto defenta.</p>
+                            <p>Te superas cada día, donde los valores como el respeto, humildad y compañerismo los tendrás en el día a día.</p>
+                            <p>Verás un gran progreso muy satisfactorio, porque seguimos con la idea de que <b>'Tod@s aprendemos de tod@s'</b>.</p>
+                        </div>
+                        <div class="w3-center">
+                            <p style="margin: 0;">
+                                <button onclick="document.getElementById('horario-defensa').style.display='block'" class="w3-button w3-block w3-black">
+                                    <i class="far fa-clock"></i> Horarios<br/>Defensa Personal
+                                </button>
+                            </p>
+                        </div>
+                    </div>                        
                 </div>
                 -->
-                <div class="w3-col w3-half w3-section">
-                    <div class="w3-container w3-center w3-dark-gray w3-hover-dark-gray w3-padding-small w3-leftbar w3-border-grey">
-                        <h6 style="font-size: 13px;">K1 INFANTIL</h6>
-                    </div>
-                    <div>
-                        <img src="./images/gym-horarios/gym-01.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="K1 Infantil">
-                    </div>
-                    <div class="pm-gymhorarios">
-                        <p>En nuestras clases de <b>K1 infantil</b>, estamos ayudando a alumnos de todas las edades a alcanzar una experiencia exitosa y positiva.</p>
-                        <p>Nuestro programa de K1 para niños incluye clases específicas por edad, que están diseñadas para aportar a los alumnos modelos positivos, disciplina y respeto.</p>
-                        <p>Aumenta la coordinación entre las diferentes partes del cuerpo, desarrolla su sutoconfianza, el compañerísmo y su capacidad de concentración.</p>
-                        <p><b>Las clases de K1 infantil son clases sin contacto.</b></p>
-                    </div>
-                    <div class="w3-center">
-                        <p style="margin: 0;">
-                            <button onclick="document.getElementById('horario-kickinfantil').style.display='block'" class="w3-button w3-block w3-black">
-                                <i class="far fa-clock"></i> Horarios<br/>K1 Infantil
-                            </button>
-                        </p>
-                    </div>
-                </div>              
-                <div class="w3-col w3-half w3-section">
-                    <div class="w3-container w3-center w3-dark-gray w3-hover-dark-gray w3-padding-small w3-leftbar w3-border-grey">
-                        <h6 style="font-size: 13px;">FUNCIONAL</h6>
-                    </div>
-                    <div>
-                        <img src="./images/gym-horarios/gym-01.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Funcional">
-                    </div>
-                    <div class="pm-gymhorarios">
-                        <p>En las clases de <b>entrenamiento funcional</b>, se entrena con un propósito y para alcanzar un objetivo.</p>
-                    </div>
-                    <div class="w3-center">
-                        <p style="margin: 0;">
-                            <button onclick="document.getElementById('horario-funcional').style.display='block'" class="w3-button w3-block w3-black">
-                                <i class="far fa-clock"></i> Horarios<br/>Funcional
-                            </button>
-                        </p>
+
+                <div class="w3-row-padding">
+                    <div class="w3-col w3-section">
+                        <div class="w3-center">
+                            <p style="margin: 0;">
+                                <button onclick="document.getElementById('horario-semana').style.display='block'" class="w3-button w3-block w3-light-gray w3-bottombar w3-border-black">
+                                    <i class="fas fa-clock"></i> Horarios semana
+                                </button>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="w3-row-padding">
-                <div class="w3-col w3-section">
-                    <div class="w3-center">
-                        <p style="margin: 0;">
-                            <button onclick="document.getElementById('horario-semana').style.display='block'" class="w3-button w3-block w3-light-gray w3-bottombar w3-border-black">
-                                <i class="fas fa-clock"></i> Horarios semana
-                            </button>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            
         </div>
 
         <!-- Modal for full size images on click-->
@@ -713,6 +643,7 @@
                     </span>
                     <h2>K1 / Boxeo</h2>
                 </div>
+                <!--
                 <div>
                     <div class="w3-container w3-dark-grey w3-center w3-display-container">
                         <h4>Mañanas</h4>
@@ -726,6 +657,7 @@
                         <div class="w3-col m6"><h5><b>11:00 a 13:00 h.</b></h5></div>                    
                     </div>
                 </div>
+                -->
 
                 <div>
                     <div class="w3-container w3-dark-grey w3-center w3-display-container">
@@ -739,6 +671,7 @@
             </div>
         </div>
 
+        <!--
         <div id="horario-defensa" class="w3-modal">
             <div class="w3-modal-content w3-animate-zoom">
                 <div class="w3-container w3-black w3-display-container">
@@ -763,7 +696,6 @@
             </div>
         </div>
 
-        <!--
         <div id="horario-mma" class="w3-modal">
             <div class="w3-modal-content w3-animate-zoom">
                 <div class="w3-container w3-black w3-display-container">
@@ -783,8 +715,7 @@
                 </div>          
             </div>
         </div>
-        -->
-
+       
         <div id="horario-kickinfantil" class="w3-modal">
             <div class="w3-modal-content w3-animate-zoom">
                 <div class="w3-container w3-black w3-display-container">
@@ -804,6 +735,7 @@
                 </div>          
             </div>
         </div>
+        -->
 
         <div id="horario-funcional" class="w3-modal">
             <div class="w3-modal-content w3-animate-zoom">
@@ -828,6 +760,7 @@
          
         <div id="horario-semana" class="w3-modal">
             <div class="w3-modal-content w3-animate-zoom">
+                <!--
                 <div class="w3-container w3-black w3-display-container">
                     <span onclick="document.getElementById('horario-semana').style.display='none'" class="w3-button w3-display-topright w3-large">
                         <i class="far fa-window-close"></i>
@@ -847,7 +780,11 @@
                         <div class="w3-col m6"><h5><b>11:00 a 13:00 h.</b></h5></div>                    
                     </div>
                 </div>
+                -->
                 <div class="w3-container w3-black w3-display-container">
+                    <span onclick="document.getElementById('horario-semana').style.display='none'" class="w3-button w3-display-topright w3-large">
+                        <i class="far fa-window-close"></i>
+                    </span>
                     <h2>Tardes</h2>
                 </div>
                 <!--
@@ -860,7 +797,7 @@
                         <div class="w3-col m6"><h5><b>17:30 a 18:30 h.</b></h5></div>                    
                     </div>
                 </div>  
-                -->
+                
                 <div>
                     <div class="w3-container w3-dark-grey w3-center w3-display-container">
                         <h4>Defensa personal</h4>
@@ -883,20 +820,21 @@
                         <div class="w3-col m6"><h5><b>18:30 a 19:30 h.</b></h5></div>                    
                     </div>
                 </div> 
+                -->   
                 <div>
                     <div class="w3-container w3-dark-grey w3-center w3-display-container">
                         <h4>Funcional</h4>
                     </div>
-                    <div class="w3-container">
+                    <div class="w3-container w3-center">
                         <div class="w3-col m6"><h5>Lunes a Viernes</h5></div>
                         <div class="w3-col m6"><h5><b>19:00 a 20:00 h.</b></h5></div>                    
                     </div>
-                </div>     
+                </div>   
                 <div>
                     <div class="w3-container w3-dark-grey w3-center w3-display-container">
                         <h4>K1 / Boxeo</h4>
                     </div>
-                    <div class="w3-container">
+                    <div class="w3-container w3-center">
                         <div class="w3-col m6"><h5>Lunes - Miércoles - Viernes</h5></div>
                         <div class="w3-col m6"><h5><b>20:00 a 22:00 h.</b></h5></div>                    
                     </div>                                       
@@ -905,329 +843,291 @@
                     <div class="w3-container w3-dark-grey w3-center w3-display-container">
                         <h4>Boxeo</h4>
                     </div>
-                    <div class="w3-container">
+                    <div class="w3-container w3-center">
                         <div class="w3-col m6"><h5>Martes y Jueves</h5></div>
                         <div class="w3-col m6"><h5><b>20:00 a 22:00 h.</b></h5></div>                    
                     </div>                                    
-                </div>                
+                </div>               
             </div>
         </div>
 
         <!-- Pricing Section -->
-        <!--
         <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
-            <h3>TARIFAS</h3>
-            <p class="w3-large">Elige la tarifa que se ajusta a tus necesidades.</p>
-            <div class="w3-row-padding" style="margin-top:64px">
-                <div class="w3-third w3-section">
-                    <ul class="w3-ul w3-white w3-hover-shadow">
-                        <li class="w3-black w3-xlarge w3-padding-32">Gratis</li>
-                        <li class="w3-padding-16"><b>Empadronados</b></li>
-                        <li class="w3-padding-16"><b>Desempleados</b></li>
-                        <li class="w3-padding-16"><b>Familia Numerosa</b> </li>
-                        <li class="w3-padding-16">
-                            <h2 class="w3-wide">0,00 €</h2>
-                            <span class="w3-opacity">por mes</span>
-                        </li>
-                        
-                        <li class="w3-light-grey w3-padding-24">
-                            <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-                        </li>
-                        
-                    </ul>
-                </div>
-                <div class="w3-third">
-                    <ul class="w3-ul w3-white w3-hover-shadow">
-                        <li class="w3-blue-grey w3-xlarge w3-padding-48">Dos Actividades</li>
-                        <li class="w3-padding-16"><b>Boxeo</b></li>
-                        <li class="w3-padding-16"><b>Kick Boxing / K1</b></li>
-                        <li class="w3-padding-16"><b>Defensa Personal</b></li>
-                        <li class="w3-padding-16">
-                            <h2 class="w3-wide">50 €</h2>
-                            <span class="w3-opacity">por mes</span>
-                        </li>
-                        
-                        <li class="w3-light-grey w3-padding-24">
-                            <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-                        </li>
-                        
-                    </ul>
-                </div>
-                <div class="w3-third w3-section">
-                    <ul class="w3-ul w3-white w3-hover-shadow">
-                        <li class="w3-black w3-xlarge w3-padding-32">Una Actividad</li>
-                        <li class="w3-padding-16"><b>Boxeo</b></li>
-                        <li class="w3-padding-16"><b>Kick Boxing / K1</b></li>
-                        <li class="w3-padding-16"><b>Defensa Personal</b></li>
-                        <li class="w3-padding-16">
-                        <h2 class="w3-wide">40 €</h2>
-                        <span class="w3-opacity">por mes</span>
-                        
-                        </li>
-                            <li class="w3-light-grey w3-padding-24">
-                            <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        -->
 
-        <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
-            <h2 class="w3-center"><strong>TARIFAS</strong></h2>            
-            <p class="w3-large">Elige la tarifa que se ajusta a tus necesidades.</p>
-            <div class="w3-row-padding" style="margin-top:64px">
-                <div class="w3-row w3-center w3-border w3-border-white w3-blue-grey w3-large">                     
-                    <a href="javascript:void(0)" onclick="openMenu(event, 'NoEmpadronado');" id="myLink">
-                        <div class="w3-col s4 tablink w3-hover-black pm-padding-tabs" >No Empradronado</div>
-                    </a>
-                    <a href="javascript:void(0)" onclick="openMenu(event, 'Empadronado');">
-                        <div class="w3-col s4 tablink w3-hover-black pm-padding-tabs">Empadronado <br/></div>
-                    </a>
-                    <a href="javascript:void(0)" onclick="openMenu(event, 'Ofertas');">
-                        <div class="w3-col s4 tablink w3-hover-black pm-padding-tabs">Ofertas <br/></div>
-                    </a>
-                </div>
-                
-                <div id="NoEmpadronado" class="w3-container pricing w3-padding-32 w3-white w3-left-align">
-                    <h3 class="w3-hide-small"><b>Boxeo / K1</b> <span class="w3-right w3-tag w3-light-grey w3-round ">40.00 €</span></h3>
-                    <h3 class="w3-hide-large w3-hide-medium"><b>Boxeo / K1</b></h3>  
-                    <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
-                        <div class="w3-col">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">40.00 €</span>
-                        </div>
-                    </div>    
-                    <hr>
+            <div class="w3-content">
 
-                    <h3 class="w3-hide-small"><b>Defensa Personal</b> <span class="w3-right w3-tag w3-light-grey w3-round ">30.00 €</span></h3>
-                    <h3 class="w3-hide-large w3-hide-medium"><b>Defensa Personal</b></h3>  
-                    <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
-                        <div class="w3-col">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">30.00 €</span>
-                        </div>
-                    </div>    
-                    <hr>
-
-                    <h3 class="w3-hide-small"><b>K1 infantil</b> <span class="w3-right w3-tag w3-light-grey w3-round ">25.00 €</span></h3>
-                    <h3 class="w3-hide-large w3-hide-medium"><b>K1 infantil</b></h3>  
-                    <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
-                        <div class="w3-col">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">25.00 €</span>
-                        </div>
-                    </div>    
-                    <hr>
-
-                    <h3 class="w3-hide-small"><b>Funcional</b> <span class="w3-right w3-tag w3-light-grey w3-round ">20.00 €</span></h3>
-                    <h3 class="w3-hide-large w3-hide-medium"><b>Funcional</b></h3>  
-                    <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
-                        <div class="w3-col">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">20.00 €</span>
-                        </div>
-                    </div>    
-                    <hr>
-
-                    <!--
-                    <h3 class="w3-hide-small"><b>Yoga</b> <span class="w3-right w3-tag w3-light-grey w3-round ">25.00 €</span></h3>
-                    <h3 class="w3-hide-large w3-hide-medium"><b>Yoga</b></h3>  
-                    <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
-                        <div class="w3-col">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">25.00 €</span>
-                        </div>
-                    </div>    
-                    <hr>
-                    -->
-
-                </div>
-
-                <div id="Empadronado" class="w3-container pricing w3-padding-32 w3-white w3-left-align">
-                    <h3 class="w3-hide-small"><b>Boxeo / K1</b> <span class="w3-right w3-tag w3-light-grey w3-round ">25.00 €</span></h3>
-                    <h3 class="w3-hide-large w3-hide-medium"><b>Boxeo / K1</b></h3>  
-                    <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
-                        <div class="w3-col">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">25.00 €</span>
-                        </div>
-                    </div>    
-                    <hr>
-
-                    <h3 class="w3-hide-small"><b>Defensa Personal</b> <span class="w3-right w3-tag w3-light-grey w3-round ">25.00 €</span></h3>
-                    <h3 class="w3-hide-large w3-hide-medium"><b>Defensa Personal</b></h3>  
-                    <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
-                        <div class="w3-col">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">25.00 €</span>
-                        </div>
-                    </div>    
-                    <hr>
-
-                    <h3 class="w3-hide-small"><b>K1 infantil</b> <span class="w3-right w3-tag w3-light-grey w3-round ">15.00 €</span></h3>
-                    <h3 class="w3-hide-large w3-hide-medium"><b>K1 infantil</b></h3>  
-                    <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
-                        <div class="w3-col">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">15.00 €</span>
-                        </div>
-                    </div>    
-                    <hr>
-
-                    <h3 class="w3-hide-small"><b>Funcional</b> <span class="w3-right w3-tag w3-light-grey w3-round ">15.00 €</span></h3>
-                    <h3 class="w3-hide-large w3-hide-medium"><b>Funcional</b></h3>  
-                    <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
-                        <div class="w3-col">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">15.00 €</span>
-                        </div>
-                    </div>    
-                    <hr>
-
-                    <!--
-                    <h3 class="w3-hide-small"><b>Yoga</b> <span class="w3-right w3-tag w3-light-grey w3-round ">20.00 €</span></h3>
-                    <h3 class="w3-hide-large w3-hide-medium"><b>Yoga</b></h3>  
-                    <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
-                        <div class="w3-col">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">20.00 €</span>
-                        </div>
-                    </div>    
-                    <hr>
-                    -->
-
-                </div>
-
-                <div id="Ofertas" class="w3-container pricing w3-padding-32 w3-white w3-left-align">
-                    <h3><b>Boxeo + K1 + Funcional</b></h3>
-                    <div class="w3-container w3-section">
-                        <div class="w3-col m6">
-                            No Empadronado
-                        </div>
-                        <div class="w3-col m6 ">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">50.00 €</span>
-                        </div>
+                <h2 class="w3-center"><strong>TARIFAS</strong></h2>            
+                <p class="w3-large">Elige la tarifa que se ajusta a tus necesidades.</p>
+                <div class="w3-row-padding" style="margin-top:64px">
+                    <div class="w3-row w3-center w3-border w3-border-white w3-blue-grey w3-large">                     
+                        <a href="javascript:void(0)" onclick="openMenu(event, 'NoEmpadronado');" id="myLink">
+                            <div class="w3-col s4 tablink w3-hover-black pm-padding-tabs" >No Empradronado</div>
+                        </a>
+                        <a href="javascript:void(0)" onclick="openMenu(event, 'Empadronado');">
+                            <div class="w3-col s4 tablink w3-hover-black pm-padding-tabs">Empadronado <br/></div>
+                        </a>
+                        <a href="javascript:void(0)" onclick="openMenu(event, 'Ofertas');">
+                            <div class="w3-col s4 tablink w3-hover-black pm-padding-tabs">Ofertas <br/></div>
+                        </a>
                     </div>
-                    <div class="w3-container w3-section">
-                        <div class="w3-col m6">
-                            Empadronado
-                        </div>
-                        <div class="w3-col m6">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">40.00 €</span>
-                        </div>
-                    </div>
-                    <hr>
-
-                    <h3><b>K1 infantil + Defensa Personal</b></h3>
-                    <div class="w3-container w3-section">
-                        <div class="w3-col m6">
-                            No Empadronado
-                        </div>
-                        <div class="w3-col m6 ">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">50.00 €</span>
-                        </div>
-                    </div>
-                    <div class="w3-container w3-section">
-                        <div class="w3-col m6">
-                            Empadronado
-                        </div>
-                        <div class="w3-col m6">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">40.00 €</span>
-                        </div>
-                    </div>
-                    <hr>
-
-                    <h3><b>Defensa Personal + Funcional</b></h3>
-                    <div class="w3-container w3-section">
-                        <div class="w3-col m6">
-                            No Empadronado
-                        </div>
-                        <div class="w3-col m6 ">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">45.00 €</span>
-                        </div>
-                    </div>
-                    <div class="w3-container w3-section">
-                        <div class="w3-col m6">
-                            Empadronado
-                        </div>
-                        <div class="w3-col m6">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">35.00 €</span>
-                        </div>
-                    </div>
-                    <hr>
                     
-                    <!--
-                    <h3><b>Yoga + Funcional</b></h3>
-                    <div class="w3-container w3-section">
-                        <div class="w3-col m6">
-                            No Empadronado
-                        </div>
-                        <div class="w3-col m6 ">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">40.00 €</span>
-                        </div>
-                    </div>
-                    <div class="w3-container w3-section">
-                        <div class="w3-col m6">
-                            Empadronado
-                        </div>
-                        <div class="w3-col m6">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">30.00 €</span>
-                        </div>
-                    </div>
-                    <hr>
-                    -->
-                    
-                    <!--
-                    <h3><b>Desempleado</b></h3>
-                    <div class="w3-container w3-section">
-                        <div class="w3-col m6">
-                            No Empadronado
-                        </div>
-                        <div class="w3-col m6 ">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">20.00 €</span>
-                        </div>
-                    </div>
-                    <div class="w3-container w3-section">
-                        <div class="w3-col m6">
-                            Empadronado
-                        </div>
-                        <div class="w3-col m6">
-                            <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">15.00 €</span>
-                        </div>
-                    </div>
-                    <hr>
-                    -->
+                    <div id="NoEmpadronado" class="w3-container pricing w3-padding-32 w3-white w3-left-align">
+                        <h3 class="w3-hide-small"><b>Boxeo / K1</b> <span class="w3-right w3-tag w3-light-grey w3-round ">40.00 €</span></h3>
+                        <h3 class="w3-hide-large w3-hide-medium"><b>Boxeo / K1</b></h3>  
+                        <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
+                            <div class="w3-col">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">40.00 €</span>
+                            </div>
+                        </div>    
+                        <hr>
 
-                    <!--
-                    <h3 class="w3-hide-small"><b>En pareja 50% descuento en la cuota más alta</b></h3>
-                    <h3 class="w3-large w3-hide-large w3-hide-medium"><b>En pareja 50% descuento en la cuota más alta</b></h3>
-                    <hr>
-                    -->
+                        <!--
+                        <h3 class="w3-hide-small"><b>Defensa Personal</b> <span class="w3-right w3-tag w3-light-grey w3-round ">30.00 €</span></h3>
+                        <h3 class="w3-hide-large w3-hide-medium"><b>Defensa Personal</b></h3>  
+                        <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
+                            <div class="w3-col">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">30.00 €</span>
+                            </div>
+                        </div>    
+                        <hr>
+
+                        <h3 class="w3-hide-small"><b>K1 infantil</b> <span class="w3-right w3-tag w3-light-grey w3-round ">25.00 €</span></h3>
+                        <h3 class="w3-hide-large w3-hide-medium"><b>K1 infantil</b></h3>  
+                        <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
+                            <div class="w3-col">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">25.00 €</span>
+                            </div>
+                        </div>    
+                        <hr>
+                        -->
+
+                        <h3 class="w3-hide-small"><b>Funcional</b> <span class="w3-right w3-tag w3-light-grey w3-round ">20.00 €</span></h3>
+                        <h3 class="w3-hide-large w3-hide-medium"><b>Funcional</b></h3>  
+                        <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
+                            <div class="w3-col">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">20.00 €</span>
+                            </div>
+                        </div>    
+                        <hr>
+
+                        <!--
+                        <h3 class="w3-hide-small"><b>Yoga</b> <span class="w3-right w3-tag w3-light-grey w3-round ">25.00 €</span></h3>
+                        <h3 class="w3-hide-large w3-hide-medium"><b>Yoga</b></h3>  
+                        <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
+                            <div class="w3-col">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">25.00 €</span>
+                            </div>
+                        </div>    
+                        <hr>
+                        -->
+
+                    </div>
+
+                    <div id="Empadronado" class="w3-container pricing w3-padding-32 w3-white w3-left-align">
+                        <h3 class="w3-hide-small"><b>Boxeo / K1</b> <span class="w3-right w3-tag w3-light-grey w3-round ">25.00 €</span></h3>
+                        <h3 class="w3-hide-large w3-hide-medium"><b>Boxeo / K1</b></h3>  
+                        <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
+                            <div class="w3-col">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">25.00 €</span>
+                            </div>
+                        </div>    
+                        <hr>
+
+                        <!--
+                        <h3 class="w3-hide-small"><b>Defensa Personal</b> <span class="w3-right w3-tag w3-light-grey w3-round ">25.00 €</span></h3>
+                        <h3 class="w3-hide-large w3-hide-medium"><b>Defensa Personal</b></h3>  
+                        <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
+                            <div class="w3-col">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">25.00 €</span>
+                            </div>
+                        </div>    
+                        <hr>
+
+                        <h3 class="w3-hide-small"><b>K1 infantil</b> <span class="w3-right w3-tag w3-light-grey w3-round ">15.00 €</span></h3>
+                        <h3 class="w3-hide-large w3-hide-medium"><b>K1 infantil</b></h3>  
+                        <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
+                            <div class="w3-col">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">15.00 €</span>
+                            </div>
+                        </div>    
+                        <hr>
+                        -->
+
+                        <h3 class="w3-hide-small"><b>Funcional</b> <span class="w3-right w3-tag w3-light-grey w3-round ">15.00 €</span></h3>
+                        <h3 class="w3-hide-large w3-hide-medium"><b>Funcional</b></h3>  
+                        <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
+                            <div class="w3-col">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">15.00 €</span>
+                            </div>
+                        </div>    
+                        <hr>
+
+                        <!--
+                        <h3 class="w3-hide-small"><b>Yoga</b> <span class="w3-right w3-tag w3-light-grey w3-round ">20.00 €</span></h3>
+                        <h3 class="w3-hide-large w3-hide-medium"><b>Yoga</b></h3>  
+                        <div class="w3-container w3-section w3-hide-large w3-hide-medium"> 
+                            <div class="w3-col">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">20.00 €</span>
+                            </div>
+                        </div>    
+                        <hr>
+                        -->
+
+                    </div>
+
+                    <div id="Ofertas" class="w3-container pricing w3-padding-32 w3-white w3-left-align">
+                        <h3><b>Boxeo + K1 + Funcional</b></h3>
+                        <div class="w3-container w3-section">
+                            <div class="w3-col m6">
+                                No Empadronado
+                            </div>
+                            <div class="w3-col m6 ">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">50.00 €</span>
+                            </div>
+                        </div>
+                        <div class="w3-container w3-section">
+                            <div class="w3-col m6">
+                                Empadronado
+                            </div>
+                            <div class="w3-col m6">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">40.00 €</span>
+                            </div>
+                        </div>
+                        <hr>
+
+                        <!--
+                        <h3><b>K1 infantil + Defensa Personal</b></h3>
+                        <div class="w3-container w3-section">
+                            <div class="w3-col m6">
+                                No Empadronado
+                            </div>
+                            <div class="w3-col m6 ">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">50.00 €</span>
+                            </div>
+                        </div>
+                        <div class="w3-container w3-section">
+                            <div class="w3-col m6">
+                                Empadronado
+                            </div>
+                            <div class="w3-col m6">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">40.00 €</span>
+                            </div>
+                        </div>
+                        <hr>
+
+                        <h3><b>Defensa Personal + Funcional</b></h3>
+                        <div class="w3-container w3-section">
+                            <div class="w3-col m6">
+                                No Empadronado
+                            </div>
+                            <div class="w3-col m6 ">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">45.00 €</span>
+                            </div>
+                        </div>
+                        <div class="w3-container w3-section">
+                            <div class="w3-col m6">
+                                Empadronado
+                            </div>
+                            <div class="w3-col m6">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">35.00 €</span>
+                            </div>
+                        </div>
+                        <hr>
+                        
+                        <h3><b>Yoga + Funcional</b></h3>
+                        <div class="w3-container w3-section">
+                            <div class="w3-col m6">
+                                No Empadronado
+                            </div>
+                            <div class="w3-col m6 ">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">40.00 €</span>
+                            </div>
+                        </div>
+                        <div class="w3-container w3-section">
+                            <div class="w3-col m6">
+                                Empadronado
+                            </div>
+                            <div class="w3-col m6">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">30.00 €</span>
+                            </div>
+                        </div>
+                        <hr>
+                        -->
+                        
+                        <!--
+                        <h3><b>Desempleado</b></h3>
+                        <div class="w3-container w3-section">
+                            <div class="w3-col m6">
+                                No Empadronado
+                            </div>
+                            <div class="w3-col m6 ">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">20.00 €</span>
+                            </div>
+                        </div>
+                        <div class="w3-container w3-section">
+                            <div class="w3-col m6">
+                                Empadronado
+                            </div>
+                            <div class="w3-col m6">
+                                <span class="w3-right w3-tag w3-light-grey w3-round" style="font-size: 24px;">15.00 €</span>
+                            </div>
+                        </div>
+                        <hr>
+                        -->
+
+                        <!--
+                        <h3 class="w3-hide-small"><b>En pareja 50% descuento en la cuota más alta</b></h3>
+                        <h3 class="w3-large w3-hide-large w3-hide-medium"><b>En pareja 50% descuento en la cuota más alta</b></h3>
+                        <hr>
+                        -->
+                    </div>
                 </div>
-
-                <br>
-
             </div>
         </div>
 
         <!-- Contact Section -->
         <div class="w3-container w3-white" style="padding:128px 16px" id="contact">
-            <h2 class="w3-center"><strong>CONTACTO</strong></h2>
-            <p class="w3-center w3-large">¡No dudes!, ponte en contacto con nosotros</p>
-            <div style="margin-top:48px">
-                <p><i class="fa fa-map-marker fa-fw w3-large w3-margin-right"></i> <b> Perla Mayorga Boxing Club</b></p>
-                <p style="margin-left: 64px;">Calle Acacia, Pozuelo del Rey</p>
-                <p style="margin-left: 64px;">28813, Madrid</p>
-                <p><i class="fa fa-phone fa-fw w3-large w3-margin-right"></i> Telefóno : +34 644 834 571</p>
-                <p><i class="fa fa-envelope fa-fw w3-large w3-margin-right"></i> Email: <a href="mailto:perlamayorgaboxingclub@gmail.com">perlamayorgaboxingclub@gmail.com</a></p>
-                <br>
-                <!-- Image of location/map -->
-                <div id="mapid" class="w3-image w3-greyscale" style="width:100%;margin-top:48px;height: 100vh;"></div>
+            <div class="w3-content">
+                <h2 class="w3-center"><strong>CONTACTO</strong></h2>
+                <p class="w3-center w3-large">¡No dudes!, ponte en contacto con nosotros</p>
+                <div style="margin-top:48px">
+                    <p><i class="fa fa-map-marker fa-fw w3-large w3-margin-right"></i> <b> Perla Mayorga Boxing Club</b></p>
+                    <p style="margin-left: 64px;">Calle Acacia, Pozuelo del Rey</p>
+                    <p style="margin-left: 64px;">28813, Madrid</p>
+                    <p><i class="fa fa-phone fa-fw w3-large w3-margin-right"></i> Telefóno : +34 644 834 571</p>
+                    <p><i class="fa fa-envelope fa-fw w3-large w3-margin-right"></i> Email: <a href="mailto:perlamayorgaboxingclub@gmail.com">perlamayorgaboxingclub@gmail.com</a></p>
+                    <br>
+                    <!-- Image of location/map -->
+                    <div id="mapid" class="w3-image" style="width:100%;margin-top:48px;height: 100vh;"></div>
+                </div>
             </div>
         </div>
 
+        <div id="pm-btnToUp" title="Go to top">
+            <a href="#home" class="w3-button w3-blue-grey w3-opacity-min"><i class="fa fa-arrow-up"></i></a>
+        </div>
+
         <!-- Footer -->
-        <footer class="w3-center w3-black w3-padding-64">
-            <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Arriba</a>
-            <div class="w3-xlarge w3-section">
-                <a href="https://www.facebook.com/perla.mayorga.9484" target="_blank"><i class="fab fa-facebook w3-hover-opacity"></i></a> 
-                <a href="https://www.instagram.com/perlamayorgaboxing" target="_blank"><i class="fab fa-instagram w3-hover-opacity"></i></a>
-                <a href="https://twitter.com/PerlaBoxingClub" target="_blank"><i class="fab fa-twitter w3-hover-opacity"></i></a>
-                <a href="https://www.youtube.com/channel/UC84FFyDvy7jvCQPrj-VATWw" target="_blank"><i class="fab fa-youtube w3-hover-opacity"></i></a>
-                <a href="https://api.whatsapp.com/send?phone=34644834571"><i class="fab fa-whatsapp w3-hover-opacity"></i></a>
+        <footer class="w3-center w3-black w3-padding-32">
+            <div class="w3-content">
+                <div class="w3-section">
+                    <p><span class="w3-border-bottom">Redes Sociales</span></p>
+                    <p class="w3-large">
+                        <a href="https://www.facebook.com/perla.mayorga.9484" target="_blank" class="w3-btn"><i class="fab fa-facebook w3-hover-opacity"></i></a> 
+                        <a href="https://www.instagram.com/perlamayorgaboxing" target="_blank" class="w3-btn"><i class="fab fa-instagram w3-hover-opacity"></i></a>
+                        <a href="https://twitter.com/PerlaBoxingClub" target="_blank" class="w3-btn"><i class="fab fa-twitter w3-hover-opacity"></i></a>
+                        <a href="https://www.youtube.com/channel/UC84FFyDvy7jvCQPrj-VATWw" target="_blank" class="w3-btn"><i class="fab fa-youtube w3-hover-opacity"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=34644834571" class="w3-btn"><i class="fab fa-whatsapp w3-hover-opacity"></i></a>
+                    </p>
+                </div>
+                <div class="w3-section">
+                    <p><a href="http://www.pozuelodelrey.es" title="www.pozuelodelrey.es" target="_blank" class="w3-hover-text-gray">www.pozuelodelrey.es</a></p>
+                </div>
+                <div class="w3-section w3-tiny">
+                    <p>In memory of José Manuel Mayorga 'Perla' by:</p>
+                    <p><a href="https://davidrubiobenito.github.io" title="David Rubio Benito" target="_blank" class="w3-hover-text-gray">David Rubio Benito</a></p>
+                </div>
             </div>
-            <p><a href="http://www.pozuelodelrey.es" title="www.pozuelodelrey.es" target="_blank" class="w3-hover-text-gray">www.pozuelodelrey.es</a></p>
         </footer>
 
         <div id="popupCook">
@@ -1242,24 +1142,6 @@
         <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" 
                 integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
         <script src="./js/app.js"></script>   
-
-        <script>
-            // Tabbed pricing
-            function openMenu(evt, menuName) {
-                var i, x, tablinks;
-                x = document.getElementsByClassName("pricing");
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                }
-                tablinks = document.getElementsByClassName("tablink");
-                for (i = 0; i < x.length; i++) {
-                    tablinks[i].className = tablinks[i].className.replace(" w3-black", "");
-                }
-                document.getElementById(menuName).style.display = "block";
-                evt.currentTarget.firstElementChild.className += " w3-black";
-            }
-            document.getElementById("myLink").click();
-        </script>
 
     </body>
 </html>
