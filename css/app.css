@@ -33,13 +33,11 @@ body, html {
     top: 0px;
     left: 0px;
     color: transparent;
-    /*background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;*/
     opacity: 0;
     z-index: 0;
     animation: imageAnimation 36s linear infinite 0s; 
 
+    /*Efecto paralax*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -47,7 +45,7 @@ body, html {
 }
 
 .pm-header .messageHeader { 
-    z-index: 1000;
+    z-index: 2;
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -349,8 +347,15 @@ margin-left: 91.666667%;
     cursor: pointer; /* Add a mouse pointer on hover */
 }
 
-#about .w3-third:hover i, #about .w3-half:hover i  {
+#about .w3-third:hover i, 
+#about .w3-half:hover i{
     font-size: 73px !important;
+    color: #607d8b!important;
+}
+
+#about .w3-third:hover b, 
+#about .w3-half:hover b {
+    font-size: 48px !important;
     color: #607d8b!important;
 }
 
