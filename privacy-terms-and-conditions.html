@@ -8,7 +8,6 @@
         <link rel="shortcut icon" type="image/png" href="./images/favicon.ico"/>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
             integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         
@@ -16,9 +15,45 @@
     </head>
    
     <body>
+
+        <!-- Navbar (sit on top) -->
+        <div class="w3-top">
+            <div class="w3-bar w3-white w3-opacity" id="myNavbar">
+                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large pm-hide-medium" onclick="w3_open()">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <a href="index.html#home" class="w3-bar-item" style="padding: 6px 16px;" onclick="w3_close()"><img src="./images/logo.png" alt="Perla Mayorga Boxing Club"></a>
+                <div class="w3-right pm-hide-small">
+                    <a href="index.html#about" class="w3-bar-item w3-button"><i class="fas fa-dumbbell"></i><span style="margin-left: 5px;"><strong>ESCUELA</strong></span></a>
+                    <a href="index.html#team" class="w3-bar-item w3-button"><i class="fas fa-users"></i><span style="margin-left: 5px;"><strong>EQUIPO</strong></span></a>
+                    <a href="index.html#work" class="w3-bar-item w3-button"><i class="fas fa-th"></i><span style="margin-left: 5px;"><strong>CLASES</strong></span></a>
+                    <a href="index.html#pricing" class="w3-bar-item w3-button"><i class="fas fa-euro-sign"></i><span style="margin-left: 5px;"><strong>TARIFAS</strong></span></a>
+                    <a href="index.html#contact" class="w3-bar-item w3-button"><i class="fas fa-envelope"></i><span style="margin-left: 5px;"><strong>CONTACTO</strong></span></a>
+                </div>
+            </div>
+
+            <div class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-right w3-hide-large pm-hide-medium" style="display:none; right:0" id="mySidebar"> 
+                <p>
+                    <a href="index.html#about" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-dumbbell"></i> ESCUELA</a>
+                </p>
+                <p>
+                    <a href="index.html#team" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-users"></i> EQUIPO</a>
+                </p>
+                <p>
+                    <a href="index.html#work" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-th"></i> CLASES</a>
+                </p>
+                <p>
+                    <a href="index.html#pricing" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-euro-sign"></i> TARIFAS</a>
+                </p>
+                <p>
+                    <a href="index.html#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-right-align"><i class="fas fa-envelope"></i> CONTACTO</a> 
+                </p>                                      
+            </div>
+        </div>
+
         <!-- Page Content -->
         <div id="main-two">
-            <div class="w3-container" style="padding:128px 16px" id="privacy">
+            <div class="w3-content w3-container" style="padding:128px 16px" id="privacy">
                 <h2 class="w3-center">Terminos y condiciones. Política de privacidad.</h2>
                 <div class="w3-row-padding w3-center" style="margin-top:64px">
                     <p class="db-text-ordinario w3-medium w3-justify">Bienvenido a nuestro sitio web. Si continúa navegando y utilizando este sitio web, acepta cumplir y 
@@ -59,5 +94,35 @@
                 </div>                
             </div>
         </div>
+        
+        <div id="pm-btnToUp" title="Go to top">
+            <a href="#privacy" class="w3-button w3-blue-grey w3-opacity-min"><i class="fa fa-arrow-up"></i></a>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-center w3-black w3-padding-32">
+            <div class="w3-content">
+                <div class="w3-section">
+                    <p><span class="w3-border-bottom">Redes Sociales</span></p>
+                    <p class="w3-large">
+                        <a href="https://www.facebook.com/perla.mayorga.9484" target="_blank" class="w3-btn"><i class="fab fa-facebook w3-hover-opacity"></i></a> 
+                        <a href="https://www.instagram.com/perlamayorgaboxing" target="_blank" class="w3-btn"><i class="fab fa-instagram w3-hover-opacity"></i></a>
+                        <a href="https://twitter.com/PerlaBoxingClub" target="_blank" class="w3-btn"><i class="fab fa-twitter w3-hover-opacity"></i></a>
+                        <a href="https://www.youtube.com/channel/UC84FFyDvy7jvCQPrj-VATWw" target="_blank" class="w3-btn"><i class="fab fa-youtube w3-hover-opacity"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=34644834571" class="w3-btn"><i class="fab fa-whatsapp w3-hover-opacity"></i></a>
+                    </p>
+                </div>
+                <div class="w3-section">
+                    <p><a href="http://www.pozuelodelrey.es" title="www.pozuelodelrey.es" target="_blank" class="w3-hover-text-gray">www.pozuelodelrey.es</a></p>
+                </div>
+                <div class="w3-section w3-tiny">
+                    <p>In memory of José Manuel Mayorga 'Perla' by:</p>
+                    <p><a href="https://davidrubiobenito.github.io" title="David Rubio Benito" target="_blank" class="w3-hover-text-gray">David Rubio Benito</a></p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="./js/app-privacy.js"></script>   
     </body>
 </html>

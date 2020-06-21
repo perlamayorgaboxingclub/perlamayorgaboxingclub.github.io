@@ -189,6 +189,10 @@ body, html {
     height: 75px;
 }
 
+.w3-top{
+    z-index:1001;
+}
+
 /*
 #home {
     margin-top: 75px;
@@ -363,6 +367,41 @@ margin-left: 91.666667%;
     font-size: 2rem !important;
 }
 
+/* Create a Parallax Effect */
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image */
+.bgimg-1 {
+    background-image: url("../images/secciones/guantes.jpg");
+    min-height: 300px;
+}
+
+/* Second image */
+.bgimg-2 {
+    background-image: url("../images/secciones/box.jpg");
+    min-height: 300px;
+}
+
+/* Third image */
+.bgimg-3 {
+    background-image: url("../images/secciones/boxing-gloves.jpg");
+    min-height: 300px;
+}
+
+/* Quarter image*/
+.bgimg-4 {
+    background-image: url("../images/secciones/girl-boxer.jpg");
+    min-height: 300px;
+}
+
 
 /***************************** Media Queries *************************************/
 
@@ -464,13 +503,6 @@ margin-left: 91.666667%;
     }
     .pm-offset-l11 {
         margin-left: 91.666667%;
-    }
-
-    .pm-offset-l3{
-        margin-left: 24.99999%;
-    }
-    .pm-offset-l4{
-        margin-left: 33.33333%;
     }
 }
 
