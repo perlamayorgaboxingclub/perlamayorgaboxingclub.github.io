@@ -240,6 +240,45 @@ body, html {
     font-weight: 600;
 }
 
+.ta-padding-t-64{
+    padding-top:64px;
+}
+
+.ta-padding-b-64{
+    padding-bottom:64px;
+}
+
+.ta-padding-t-32{
+    padding-top:32px;
+}
+
+.ta-padding-b-32{
+    padding-bottom:32px;
+}
+
+.ta-padding-t-16{
+    padding-top:16px;
+}
+
+.ta-padding-b-16{
+    padding-bottom:16px;
+}
+
+.ta-padding-lr-4{
+    padding-left:4px;
+    padding-right:4px;
+}
+
+.ta-padding-lr-8{
+    padding-left:8px;
+    padding-right:8px;
+}
+
+.ta-padding-lr-16{
+    padding-left:16px;
+    padding-right:16px;
+}
+
 
 
 /***********************************************************/
